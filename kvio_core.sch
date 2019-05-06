@@ -1,4 +1,112 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 29 0
 EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 1 1 5CDA1F37
+P 550 3100
+F 0 "U?" H 1480 2103 60  0000 L CNN
+F 1 "xc7z020clg400" H 1480 1997 60  0000 L CNN
+F 2 "" H 550 3100 50  0001 C CNN
+F 3 "" H 550 3100 50  0001 C CNN
+F 4 "xc7z020clg400" H 750 3050 60  0001 L CNN "manf#"
+	1    550  3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 2 1 5CDAAB64
+P 2350 2850
+F 0 "U?" H 3580 1653 60  0000 L CNN
+F 1 "xc7z020clg400" H 3580 1547 60  0000 L CNN
+F 2 "" H 2350 2850 50  0001 C CNN
+F 3 "" H 2350 2850 50  0001 C CNN
+F 4 "xc7z020clg400" H 2550 2800 60  0001 L CNN "manf#"
+	2    2350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 3 1 5CDAECBB
+P 3950 2600
+F 0 "U?" H 5480 153 60  0000 L CNN
+F 1 "xc7z020clg400" H 5480 47  60  0000 L CNN
+F 2 "" H 3950 2600 50  0001 C CNN
+F 3 "" H 3950 2600 50  0001 C CNN
+F 4 "xc7z020clg400" H 4150 2550 60  0001 L CNN "manf#"
+	3    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 4 1 5CDB37EC
+P 5650 2500
+F 0 "U?" H 7180 53  60  0000 L CNN
+F 1 "xc7z020clg400" H 7180 -53 60  0000 L CNN
+F 2 "" H 5650 2500 50  0001 C CNN
+F 3 "" H 5650 2500 50  0001 C CNN
+F 4 "xc7z020clg400" H 5850 2450 60  0001 L CNN "manf#"
+	4    5650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 5 1 5CDB58A9
+P 700 5650
+F 0 "U?" H 1830 4803 60  0000 L CNN
+F 1 "xc7z020clg400" H 1830 4697 60  0000 L CNN
+F 2 "" H 700 5650 50  0001 C CNN
+F 3 "" H 700 5650 50  0001 C CNN
+F 4 "xc7z020clg400" H 900 5600 60  0001 L CNN "manf#"
+	5    700  5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 6 1 5CDC18AE
+P 7650 2300
+F 0 "U?" H 8780 353 60  0000 L CNN
+F 1 "xc7z020clg400" H 8780 247 60  0000 L CNN
+F 2 "" H 7650 2300 50  0001 C CNN
+F 3 "" H 7650 2300 50  0001 C CNN
+F 4 "xc7z020clg400" H 7850 2250 60  0001 L CNN "manf#"
+	6    7650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 7 1 5CDCA7E3
+P 9650 2350
+F 0 "U?" H 10880 -1347 60  0000 L CNN
+F 1 "xc7z020clg400" H 10880 -1453 60  0000 L CNN
+F 2 "" H 9650 2350 50  0001 C CNN
+F 3 "" H 9650 2350 50  0001 C CNN
+F 4 "xc7z020clg400" H 9850 2300 60  0001 L CNN "manf#"
+	7    9650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7z020clg400 U?
+U 8 1 5CDDED2B
+P 2650 6450
+F 0 "U?" H 3480 6203 60  0000 L CNN
+F 1 "xc7z020clg400" H 3480 6097 60  0000 L CNN
+F 2 "" H 2650 6450 50  0001 C CNN
+F 3 "" H 2650 6450 50  0001 C CNN
+F 4 "xc7z020clg400" H 2850 6400 60  0001 L CNN "manf#"
+	8    2650 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

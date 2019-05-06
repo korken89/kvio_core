@@ -26,4 +26,6 @@
   (lib (name transcievers)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/transcievers.lib)(options "")(descr ""))
   (lib (name usb_ic)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/usb_ic.lib)(options "")(descr ""))
   (lib (name usb_otg)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/usb_otg.lib)(options "")(descr ""))
+  (lib (name xilinx7)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/xilinx7.lib)(options "")(descr ""))
+  (lib (name xilinxultra)(type Legacy)(uri ${KIPRJMOD}/kicad_libs/symbols/xilinxultra.lib)(options "")(descr ""))
 )
