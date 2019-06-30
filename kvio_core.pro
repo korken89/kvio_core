@@ -1,4 +1,4 @@
-update=mån  6 maj 2019 21:03:49
+update=sön 30 jun 2019 20:37:37
 version=1
 last_client=kicad
 [general]
@@ -238,8 +238,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=100 ohm diff inner
-Clearance=0.1
-TrackWidth=0.1
+Clearance=0.1016
+TrackWidth=0.2
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -249,8 +249,8 @@ dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=100 ohm diff outer
-Clearance=0.1
-TrackWidth=0.1
+Clearance=0.1016
+TrackWidth=0.0889
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -272,7 +272,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=40 ohm outer
 Clearance=0.1
-TrackWidth=0.1
+TrackWidth=0.222
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -295,6 +295,28 @@ dPairViaGap=0.25
 Name=50 ohm outer
 Clearance=0.1
 TrackWidth=0.147
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/7]
+Name=90 ohm diff outer
+Clearance=0.1016
+TrackWidth=0.1173
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.1173
+dPairGap=0.1016
+dPairViaGap=0.25
+[pcbnew/Netclasses/8]
+Name=power
+Clearance=0.1
+TrackWidth=0.2
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3

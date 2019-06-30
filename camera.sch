@@ -1,0 +1,209 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3250 3750 0    50   Input ~ 0
+5V
+Text HLabel 3250 2450 0    50   Input ~ 0
+D1_P
+Text HLabel 3250 2350 0    50   Input ~ 0
+D1_N
+Text HLabel 3250 2750 0    50   Input ~ 0
+D2_P
+Text HLabel 3250 2650 0    50   Input ~ 0
+D2_N
+Text HLabel 3250 3050 0    50   Input ~ 0
+CLK_P
+Text HLabel 3250 2950 0    50   Input ~ 0
+CLK_N
+Text HLabel 3250 3250 0    50   Input ~ 0
+IO1
+Text HLabel 3250 3350 0    50   Input ~ 0
+IO2
+Text HLabel 3250 3450 0    50   Input ~ 0
+IO3
+Text HLabel 3250 3550 0    50   Input ~ 0
+SDA
+Text HLabel 3250 3650 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR?
+U 1 1 5D613D9C
+P 4200 3900
+AR Path="/5D613D9C" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D613D9C" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D613D9C" Ref="#PWR0406"  Part="1" 
+AR Path="/5D629079/5D613D9C" Ref="#PWR0506"  Part="1" 
+AR Path="/5D650A72/5D613D9C" Ref="#PWR0606"  Part="1" 
+AR Path="/5D650A80/5D613D9C" Ref="#PWR0706"  Part="1" 
+AR Path="/5D67146E/5D613D9C" Ref="#PWR0806"  Part="1" 
+AR Path="/5D67147C/5D613D9C" Ref="#PWR0906"  Part="1" 
+AR Path="/5D67148A/5D613D9C" Ref="#PWR01006"  Part="1" 
+AR Path="/5D671498/5D613D9C" Ref="#PWR01106"  Part="1" 
+F 0 "#PWR0706" H 4200 3650 50  0001 C CNN
+F 1 "GND" H 4205 3727 50  0001 C CNN
+F 2 "" H 4200 3900 50  0001 C CNN
+F 3 "" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D6140FA
+P 4200 2100
+AR Path="/5D6140FA" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D6140FA" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D6140FA" Ref="#PWR0405"  Part="1" 
+AR Path="/5D629079/5D6140FA" Ref="#PWR0505"  Part="1" 
+AR Path="/5D650A72/5D6140FA" Ref="#PWR0605"  Part="1" 
+AR Path="/5D650A80/5D6140FA" Ref="#PWR0705"  Part="1" 
+AR Path="/5D67146E/5D6140FA" Ref="#PWR0805"  Part="1" 
+AR Path="/5D67147C/5D6140FA" Ref="#PWR0905"  Part="1" 
+AR Path="/5D67148A/5D6140FA" Ref="#PWR01005"  Part="1" 
+AR Path="/5D671498/5D6140FA" Ref="#PWR01105"  Part="1" 
+F 0 "#PWR0705" H 4200 1850 50  0001 C CNN
+F 1 "GND" H 4205 1927 50  0001 C CNN
+F 2 "" H 4200 2100 50  0001 C CNN
+F 3 "" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D614EEE
+P 3900 2250
+AR Path="/5D614EEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D614EEE" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D614EEE" Ref="#PWR0401"  Part="1" 
+AR Path="/5D629079/5D614EEE" Ref="#PWR0501"  Part="1" 
+AR Path="/5D650A72/5D614EEE" Ref="#PWR0601"  Part="1" 
+AR Path="/5D650A80/5D614EEE" Ref="#PWR0701"  Part="1" 
+AR Path="/5D67146E/5D614EEE" Ref="#PWR0801"  Part="1" 
+AR Path="/5D67147C/5D614EEE" Ref="#PWR0901"  Part="1" 
+AR Path="/5D67148A/5D614EEE" Ref="#PWR01001"  Part="1" 
+AR Path="/5D671498/5D614EEE" Ref="#PWR01101"  Part="1" 
+F 0 "#PWR0701" H 3900 2000 50  0001 C CNN
+F 1 "GND" H 3905 2077 50  0001 C CNN
+F 2 "" H 3900 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D61525C
+P 3900 2550
+AR Path="/5D61525C" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D61525C" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D61525C" Ref="#PWR0402"  Part="1" 
+AR Path="/5D629079/5D61525C" Ref="#PWR0502"  Part="1" 
+AR Path="/5D650A72/5D61525C" Ref="#PWR0602"  Part="1" 
+AR Path="/5D650A80/5D61525C" Ref="#PWR0702"  Part="1" 
+AR Path="/5D67146E/5D61525C" Ref="#PWR0802"  Part="1" 
+AR Path="/5D67147C/5D61525C" Ref="#PWR0902"  Part="1" 
+AR Path="/5D67148A/5D61525C" Ref="#PWR01002"  Part="1" 
+AR Path="/5D671498/5D61525C" Ref="#PWR01102"  Part="1" 
+F 0 "#PWR0702" H 3900 2300 50  0001 C CNN
+F 1 "GND" H 3905 2377 50  0001 C CNN
+F 2 "" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D61547D
+P 3900 2850
+AR Path="/5D61547D" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D61547D" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D61547D" Ref="#PWR0403"  Part="1" 
+AR Path="/5D629079/5D61547D" Ref="#PWR0503"  Part="1" 
+AR Path="/5D650A72/5D61547D" Ref="#PWR0603"  Part="1" 
+AR Path="/5D650A80/5D61547D" Ref="#PWR0703"  Part="1" 
+AR Path="/5D67146E/5D61547D" Ref="#PWR0803"  Part="1" 
+AR Path="/5D67147C/5D61547D" Ref="#PWR0903"  Part="1" 
+AR Path="/5D67148A/5D61547D" Ref="#PWR01003"  Part="1" 
+AR Path="/5D671498/5D61547D" Ref="#PWR01103"  Part="1" 
+F 0 "#PWR0703" H 3900 2600 50  0001 C CNN
+F 1 "GND" H 3905 2677 50  0001 C CNN
+F 2 "" H 3900 2850 50  0001 C CNN
+F 3 "" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D615734
+P 3900 3150
+AR Path="/5D615734" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D615734" Ref="#PWR?"  Part="1" 
+AR Path="/5CBF1C17/5D615734" Ref="#PWR0404"  Part="1" 
+AR Path="/5D629079/5D615734" Ref="#PWR0504"  Part="1" 
+AR Path="/5D650A72/5D615734" Ref="#PWR0604"  Part="1" 
+AR Path="/5D650A80/5D615734" Ref="#PWR0704"  Part="1" 
+AR Path="/5D67146E/5D615734" Ref="#PWR0804"  Part="1" 
+AR Path="/5D67147C/5D615734" Ref="#PWR0904"  Part="1" 
+AR Path="/5D67148A/5D615734" Ref="#PWR01004"  Part="1" 
+AR Path="/5D671498/5D615734" Ref="#PWR01104"  Part="1" 
+F 0 "#PWR0704" H 3900 2900 50  0001 C CNN
+F 1 "GND" H 3905 2977 50  0001 C CNN
+F 2 "" H 3900 3150 50  0001 C CNN
+F 3 "" H 3900 3150 50  0001 C CNN
+	1    3900 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3750 3900 3750
+Wire Wire Line
+	3250 3650 3900 3650
+Wire Wire Line
+	3250 3550 3900 3550
+Wire Wire Line
+	3250 3450 3900 3450
+Wire Wire Line
+	3250 3350 3900 3350
+Wire Wire Line
+	3250 3250 3900 3250
+Wire Wire Line
+	3250 3050 3900 3050
+Wire Wire Line
+	3250 2950 3900 2950
+Wire Wire Line
+	3250 2750 3900 2750
+Wire Wire Line
+	3250 2650 3900 2650
+Wire Wire Line
+	3250 2450 3900 2450
+Wire Wire Line
+	3250 2350 3900 2350
+$Comp
+L connectors:16-pin_FFC_(SFV16R) J1101
+U 1 1 5D67E60E
+P 4050 2200
+AR Path="/5D671498/5D67E60E" Ref="J1101"  Part="1" 
+AR Path="/5CBF1C17/5D67E60E" Ref="J401"  Part="1" 
+AR Path="/5D629079/5D67E60E" Ref="J501"  Part="1" 
+AR Path="/5D650A72/5D67E60E" Ref="J601"  Part="1" 
+AR Path="/5D650A80/5D67E60E" Ref="J701"  Part="1" 
+AR Path="/5D67146E/5D67E60E" Ref="J801"  Part="1" 
+AR Path="/5D67147C/5D67E60E" Ref="J901"  Part="1" 
+AR Path="/5D67148A/5D67E60E" Ref="J1001"  Part="1" 
+F 0 "J701" H 4288 1400 50  0000 L CNN
+F 1 "16-pin_FFC_(SFV16R)" H 4150 550 50  0001 C CNN
+F 2 "connectors:SFV16R" H 4100 1150 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10112793.pdf" H 4100 1150 50  0001 C CNN
+	1    4050 2200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
