@@ -2152,7 +2152,7 @@
     )
   )
 
-  (module bga:BGA-96_8.0x14.0mm_DDR16 (layer F.Cu) (tedit 5D20622E) (tstamp 5D22294E)
+  (module bga:BGA-96_8.0x14.0mm_DDR16 (layer F.Cu) (tedit 5D209B89) (tstamp 5D22294E)
     (at 185 94 270)
     (descr "BGA-96, http://www.mouser.com/ds/2/198/43-46TR16640B-81280BL-706483.pdf")
     (tags BGA-96)
@@ -2368,6 +2368,11 @@
       (net 408 "/DDR Memory/DQ13"))
     (pad A1 smd circle (at -3.2 -6 270) (size 0.4 0.4) (layers F.Cu F.Paste F.Mask)
       (net 377 "/DDR Memory/DDR3_VDD"))
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/BGA96_8x14mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module passive:R_0402 (layer F.Cu) (tedit 5CA88E29) (tstamp 5D212FBC)
@@ -2965,7 +2970,7 @@
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D207544)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D207544)
     (at 217.7 96 180)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -2977,7 +2982,8 @@
     (fp_text value EMI8143 (at 0 3.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3018,14 +3024,14 @@
       (net 360 "Net-(J1101-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 180) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 359 "Net-(J1101-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D207527)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D207527)
     (at 218.4 110.5 180)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3037,7 +3043,8 @@
     (fp_text value EMI8143 (at 0 3.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3078,14 +3085,14 @@
       (net 354 "Net-(J1001-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 180) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 353 "Net-(J1001-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D20750A)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D20750A)
     (at 217 123.8 90)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3097,7 +3104,8 @@
     (fp_text value EMI8143 (at 0 3.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3138,14 +3146,14 @@
       (net 348 "Net-(J901-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 90) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 347 "Net-(J901-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D2074ED)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D2074ED)
     (at 203 124.4 90)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3157,7 +3165,8 @@
     (fp_text value EMI8143 (at 0 3.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3198,14 +3207,14 @@
       (net 342 "Net-(J801-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 90) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 341 "Net-(J801-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D2074D0)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D2074D0)
     (at 188 124.4 90)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3217,7 +3226,8 @@
     (fp_text value EMI8143 (at 0 3.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3258,14 +3268,14 @@
       (net 336 "Net-(J701-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 90) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 335 "Net-(J701-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D2074B3)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D2074B3)
     (at 173 124.4 90)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3277,7 +3287,8 @@
     (fp_text value EMI8143 (at 0 3.05 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3318,14 +3329,14 @@
       (net 330 "Net-(J601-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55 90) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 329 "Net-(J601-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D207496)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D207496)
     (at 169.6 113.5)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3337,7 +3348,8 @@
     (fp_text value EMI8143 (at 0 3.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3378,14 +3390,14 @@
       (net 324 "Net-(J501-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 323 "Net-(J501-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D207479)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D207479)
     (at 169.6 98.5)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -3397,7 +3409,8 @@
     (fp_text value EMI8143 (at 0 3.05) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -3438,9 +3451,9 @@
       (net 318 "Net-(J401-Pad8)"))
     (pad 1 smd roundrect (at -0.45 -1.55) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 317 "Net-(J401-Pad9)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -4623,7 +4636,7 @@
     )
   )
 
-  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D18C8A7) (tstamp 5D1B4428)
+  (module dfn:XDFN-16_1.35x3.5mm (layer F.Cu) (tedit 5D209BDF) (tstamp 5D1B4428)
     (at 202.9 96.35 270)
     (descr "DE Package; 16-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_16_05-08-1732.pdf)")
     (tags "DFN 0.45")
@@ -4635,7 +4648,8 @@
     (fp_text value EMI8143 (at 0 3.05 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start -1.15 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end -1 -1.6) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -2) (end 0.6 -2) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.6 1.9) (end 0.6 1.9) (layer F.SilkS) (width 0.15))
     (fp_line (start -1 2) (end 1 2) (layer F.CrtYd) (width 0.05))
     (fp_line (start -1 -2) (end 1 -2) (layer F.CrtYd) (width 0.05))
@@ -4676,9 +4690,9 @@
       (net 258 "/USB3 Interface/D2_N"))
     (pad 1 smd roundrect (at -0.45 -1.55 270) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 257 "/USB3 Interface/D2_P"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-16-1EP_3x4mm_P0.45mm_EP1.7x3.3mm.wrl
+    (model ${KIPRJMOD}/kicad_libs/3dmodels/step/XDFN16.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.45 0.9 1))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -5224,7 +5238,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C9E2)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C9E2)
     (at 223 97 90)
     (path /5D671498/5D67E60E)
     (fp_text reference J1101 (at 0 -3.9 90) (layer F.SilkS) hide
@@ -5328,7 +5342,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C9A6)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C9A6)
     (at 223.02 111.98 90)
     (path /5D67148A/5D67E60E)
     (fp_text reference J1001 (at 0 -3.9 90) (layer F.SilkS) hide
@@ -5432,7 +5446,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C96A)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C96A)
     (at 216.5 129)
     (path /5D67147C/5D67E60E)
     (fp_text reference J901 (at 0 -3.9) (layer F.SilkS) hide
@@ -5536,7 +5550,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C92E)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C92E)
     (at 201.5 129)
     (path /5D67146E/5D67E60E)
     (fp_text reference J801 (at 0 -3.9) (layer F.SilkS) hide
@@ -5640,7 +5654,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C8F2)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C8F2)
     (at 186.5 129)
     (path /5D650A80/5D67E60E)
     (fp_text reference J701 (at 0 -3.9) (layer F.SilkS) hide
@@ -5744,7 +5758,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C8B6)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C8B6)
     (at 171.5 129)
     (path /5D650A72/5D67E60E)
     (fp_text reference J601 (at 0 -3.9) (layer F.SilkS) hide
@@ -5848,7 +5862,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C87A)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C87A)
     (at 165 112 270)
     (path /5D629079/5D67E60E)
     (fp_text reference J501 (at 0 -3.9 90) (layer F.SilkS) hide
@@ -5952,7 +5966,7 @@
     )
   )
 
-  (module connectors:SFV16R (layer F.Cu) (tedit 5D177590) (tstamp 5D18C83E)
+  (module connectors:SFV16R (layer F.Cu) (tedit 5D2098C0) (tstamp 5D18C83E)
     (at 165 97 270)
     (path /5CBF1C17/5D67E60E)
     (fp_text reference J401 (at 0 -3.9 90) (layer F.SilkS) hide
@@ -7456,7 +7470,7 @@
     (fp_text reference U101 (at 0 -8.25 45) (layer F.SilkS) hide
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
-    (fp_text value XC7A100T-CSG324 (at 0 7 45) (layer F.Fab)
+    (fp_text value XC7A100T-CSG324 (at 0 6.999999 45) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.07)))
     )
     (fp_line (start -7.5 -7.5) (end 7.5 -7.5) (layer F.Fab) (width 0.12))
