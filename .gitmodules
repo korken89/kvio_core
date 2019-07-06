@@ -2,3 +2,7 @@
 	path = kicad_libs
 	url = https://github.com/korken89/kicad_libs
 	branch = master
+[submodule "kicad-length-matching-checks"]
+	path = kicad-length-matching-checks
+	url = https://github.com/mithro/kicad-length-matching-checks.git
+	branch = master

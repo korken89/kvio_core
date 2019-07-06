@@ -1811,4 +1811,274 @@ Wire Wire Line
 	2650 3500 3000 3500
 Wire Wire Line
 	2650 3700 3000 3700
+$Comp
+L Device:Ferrite_Bead_Small FB201
+U 1 1 5D27B5E9
+P 7650 3100
+F 0 "FB201" V 7505 3100 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 7504 3100 50  0001 C CNN
+F 2 "passive:R_0402" V 7580 3100 50  0001 C CNN
+F 3 "~" H 7650 3100 50  0001 C CNN
+	1    7650 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L dc_dc_regulators:FAN53541 U201
+U 1 1 5D8C2585
+P 3650 8900
+F 0 "U201" H 3975 9065 50  0000 C CNN
+F 1 "FAN53541" H 3975 8974 50  0000 C CNN
+F 2 "bga:WLCSP-20_1.96x1.56mm_Layout4x5_P0.4mm" H 3650 8900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FAN53541-D.pdf" H 3650 8900 50  0001 C CNN
+F 4 " FAN53541UCX " H 3650 8900 50  0001 C CNN "MPN"
+	1    3650 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite_Small L201
+U 1 1 5D8C46DF
+P 4750 9200
+F 0 "L201" V 4955 9200 50  0000 C CNN
+F 1 "0.47uH" V 4864 9200 50  0000 C CNN
+F 2 "inductor:L_2025Metric" H 4750 9200 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/srp2512a.pdf" H 4750 9200 50  0001 C CNN
+F 4 "SRP2512A-R47M" H 4750 9200 50  0001 C CNN "MPN"
+	1    4750 9200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 9500 4500 9500
+Wire Wire Line
+	4500 9500 4500 9400
+Wire Wire Line
+	4500 9200 4400 9200
+Wire Wire Line
+	4400 9300 4500 9300
+Connection ~ 4500 9300
+Wire Wire Line
+	4500 9300 4500 9200
+Wire Wire Line
+	4400 9400 4500 9400
+Connection ~ 4500 9400
+Wire Wire Line
+	4500 9400 4500 9300
+Wire Wire Line
+	4500 9200 4650 9200
+Connection ~ 4500 9200
+$Comp
+L Device:C_Small C?
+U 1 1 5D9374D1
+P 5250 9350
+AR Path="/5D9374D1" Ref="C?"  Part="0" 
+AR Path="/5D0C5174/5D9374D1" Ref="C273"  Part="1" 
+F 0 "C273" H 5342 9396 50  0000 L CNN
+F 1 "47u" H 5342 9305 50  0000 L CNN
+F 2 "passive:C_0805" H 5250 9350 50  0001 C CNN
+F 3 "~" H 5250 9350 50  0001 C CNN
+	1    5250 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 9200 4950 9200
+Wire Wire Line
+	5250 9200 5250 9250
+Wire Wire Line
+	3550 9500 3450 9500
+Wire Wire Line
+	3450 9500 3450 9600
+Wire Wire Line
+	3450 10100 3550 10100
+Wire Wire Line
+	3450 10000 3550 10000
+Connection ~ 3450 10000
+Wire Wire Line
+	3450 10000 3450 10100
+Wire Wire Line
+	3550 9900 3450 9900
+Connection ~ 3450 9900
+Wire Wire Line
+	3450 9900 3450 10000
+Wire Wire Line
+	3450 9800 3550 9800
+Connection ~ 3450 9800
+Wire Wire Line
+	3450 9800 3450 9900
+Wire Wire Line
+	3550 9700 3450 9700
+Connection ~ 3450 9700
+Wire Wire Line
+	3450 9700 3450 9800
+Wire Wire Line
+	3450 9600 3550 9600
+Connection ~ 3450 9600
+Wire Wire Line
+	3450 9600 3450 9700
+$Comp
+L power:GND #PWR?
+U 1 1 5DA084B4
+P 3450 10150
+AR Path="/5DA084B4" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5DA084B4" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 3450 9900 50  0001 C CNN
+F 1 "GND" H 3455 9977 50  0001 C CNN
+F 2 "" H 3450 10150 50  0001 C CNN
+F 3 "" H 3450 10150 50  0001 C CNN
+	1    3450 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 10150 3450 10100
+Connection ~ 3450 10100
+$Comp
+L power:GND #PWR?
+U 1 1 5DA4400E
+P 4450 10150
+AR Path="/5DA4400E" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5DA4400E" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 4450 9900 50  0001 C CNN
+F 1 "GND" H 4455 9977 50  0001 C CNN
+F 2 "" H 4450 10150 50  0001 C CNN
+F 3 "" H 4450 10150 50  0001 C CNN
+	1    4450 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 10100 4450 10100
+Wire Wire Line
+	4450 10100 4450 10150
+Wire Wire Line
+	4400 9000 5250 9000
+Wire Wire Line
+	5250 9000 5250 9200
+Connection ~ 5250 9200
+$Comp
+L power:GND #PWR?
+U 1 1 5DA9F5E2
+P 5250 9450
+AR Path="/5DA9F5E2" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5DA9F5E2" Ref="#PWR0213"  Part="1" 
+F 0 "#PWR0213" H 5250 9200 50  0001 C CNN
+F 1 "GND" H 5255 9277 50  0001 C CNN
+F 2 "" H 5250 9450 50  0001 C CNN
+F 3 "" H 5250 9450 50  0001 C CNN
+	1    5250 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 9000 3450 9000
+Wire Wire Line
+	3450 9000 3450 9100
+Wire Wire Line
+	3450 9300 3550 9300
+Wire Wire Line
+	3550 9200 3450 9200
+Connection ~ 3450 9200
+Wire Wire Line
+	3450 9200 3450 9300
+Wire Wire Line
+	3450 9100 3550 9100
+Connection ~ 3450 9100
+Wire Wire Line
+	3450 9100 3450 9200
+$Comp
+L Device:R_Small R?
+U 1 1 5DB3451D
+P 4950 9350
+AR Path="/5D7D6E29/5DB3451D" Ref="R?"  Part="1" 
+AR Path="/5D0C5174/5DB3451D" Ref="R201"  Part="1" 
+F 0 "R201" H 5009 9396 50  0000 L CNN
+F 1 "0" H 5009 9305 50  0000 L CNN
+F 2 "passive:R_0402" H 4950 9350 50  0001 C CNN
+F 3 "~" H 4950 9350 50  0001 C CNN
+	1    4950 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DB54008
+P 5150 9700
+AR Path="/5D7D6E29/5DB54008" Ref="R?"  Part="1" 
+AR Path="/5D0C5174/5DB54008" Ref="R202"  Part="1" 
+F 0 "R202" V 4954 9700 50  0000 C CNN
+F 1 "0" V 5045 9700 50  0000 C CNN
+F 2 "passive:R_0402" H 5150 9700 50  0001 C CNN
+F 3 "~" H 5150 9700 50  0001 C CNN
+	1    5150 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 9700 4950 9700
+Wire Wire Line
+	4950 9700 4950 9450
+Wire Wire Line
+	4950 9250 4950 9200
+Connection ~ 4950 9200
+Wire Wire Line
+	4950 9200 5250 9200
+Wire Wire Line
+	4950 9700 4400 9700
+Connection ~ 4950 9700
+$Comp
+L power:GND #PWR?
+U 1 1 5DBFA2A0
+P 5250 9700
+AR Path="/5DBFA2A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5DBFA2A0" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 5250 9450 50  0001 C CNN
+F 1 "GND" H 5255 9527 50  0001 C CNN
+F 2 "" H 5250 9700 50  0001 C CNN
+F 3 "" H 5250 9700 50  0001 C CNN
+	1    5250 9700
+	0    -1   -1   0   
+$EndComp
+Text Label 5250 9000 0    50   ~ 0
+VOUT
+$Comp
+L Device:C_Small C?
+U 1 1 5DBFF729
+P 2900 9400
+AR Path="/5DBFF729" Ref="C?"  Part="0" 
+AR Path="/5D0C5174/5DBFF729" Ref="C271"  Part="1" 
+F 0 "C271" H 2992 9446 50  0000 L CNN
+F 1 "10u" H 2992 9355 50  0000 L CNN
+F 2 "passive:C_0402" H 2900 9400 50  0001 C CNN
+F 3 "~" H 2900 9400 50  0001 C CNN
+	1    2900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DC050B6
+P 3200 9400
+AR Path="/5DC050B6" Ref="C?"  Part="0" 
+AR Path="/5D0C5174/5DC050B6" Ref="C272"  Part="1" 
+F 0 "C272" H 3292 9446 50  0000 L CNN
+F 1 "0.1u" H 3292 9355 50  0000 L CNN
+F 2 "passive:C_0201" H 3200 9400 50  0001 C CNN
+F 3 "~" H 3200 9400 50  0001 C CNN
+	1    3200 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 9200 3200 9200
+Wire Wire Line
+	2900 9200 2900 9300
+Wire Wire Line
+	3450 9600 3200 9600
+Wire Wire Line
+	2900 9600 2900 9500
+Wire Wire Line
+	3200 9500 3200 9600
+Connection ~ 3200 9600
+Wire Wire Line
+	3200 9600 2900 9600
+Wire Wire Line
+	3200 9300 3200 9200
+Connection ~ 3200 9200
+Wire Wire Line
+	3200 9200 2900 9200
+Text Label 2900 9200 0    50   ~ 0
+VIN
+Text Label 4450 9200 0    50   ~ 0
+SW1
 $EndSCHEMATC
