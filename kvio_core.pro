@@ -1,4 +1,4 @@
-update=sön 30 jun 2019 20:37:37
+update=sön  7 jul 2019 18:54:36
 version=1
 last_client=kicad
 [general]
@@ -63,19 +63,19 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
+Name=GND_PWR1
 Type=0
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=Sig
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=In3.Cu
+Name=GND_PWR2
 Type=0
 Enabled=1
 [pcbnew/Layer.In4.Cu]
-Name=In4.Cu
+Name=GND_PWR3
 Type=0
 Enabled=1
 [pcbnew/Layer.In5.Cu]
@@ -239,29 +239,29 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=100 ohm diff inner
 Clearance=0.1016
-TrackWidth=0.2
+TrackWidth=0.095
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.1016
+dPairWidth=0.095
+dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=100 ohm diff outer
 Clearance=0.1016
-TrackWidth=0.0889
+TrackWidth=0.098
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.0889
-dPairGap=0.1016
+dPairWidth=0.098
+dPairGap=0.15
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=40 ohm inner
 Clearance=0.1
-TrackWidth=0.222
+TrackWidth=0.221
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -272,7 +272,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=40 ohm outer
 Clearance=0.1
-TrackWidth=0.222
+TrackWidth=0.227
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -283,7 +283,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/5]
 Name=50 ohm inner
 Clearance=0.1
-TrackWidth=0.538
+TrackWidth=0.134
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -294,7 +294,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/6]
 Name=50 ohm outer
 Clearance=0.1
-TrackWidth=0.147
+TrackWidth=0.142
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -303,17 +303,50 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/7]
-Name=90 ohm diff outer
-Clearance=0.1016
-TrackWidth=0.1173
+Name=80 ohm diff inner
+Clearance=0.1
+TrackWidth=0.123
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1173
-dPairGap=0.1016
+dPairWidth=0.123
+dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/8]
+Name=80 ohm diff outer
+Clearance=0.1
+TrackWidth=0.145
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.145
+dPairGap=0.1
+dPairViaGap=0.25
+[pcbnew/Netclasses/9]
+Name=90 ohm diff inner
+Clearance=0.1
+TrackWidth=0.111
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.111
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/10]
+Name=90 ohm diff outer
+Clearance=0.1
+TrackWidth=0.103
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.103
+dPairGap=0.1
+dPairViaGap=0.25
+[pcbnew/Netclasses/11]
 Name=power
 Clearance=0.1
 TrackWidth=0.2

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1037,83 +1038,83 @@ Wire Wire Line
 	9350 2450 9350 2150
 Text Label 9250 2450 2    50   ~ 0
 DDR3_VDD
-Text Label 5050 4700 0    50   ~ 0
-A0
-Text Label 5050 5200 0    50   ~ 0
-A1
-Text Label 5050 4900 0    50   ~ 0
-A2
-Text Label 5050 5100 0    50   ~ 0
-A3
-Text Label 5050 5300 0    50   ~ 0
-A4
-Text Label 5050 6200 0    50   ~ 0
-A5
-Text Label 5050 5700 0    50   ~ 0
-A6
-Text Label 5050 6000 0    50   ~ 0
-A7
-Text Label 5050 6400 0    50   ~ 0
-A8
-Text Label 5050 5600 0    50   ~ 0
-A9
-Text Label 5050 5400 0    50   ~ 0
-A10
 Text Label 5050 6100 0    50   ~ 0
-A11
-Text Label 5050 6300 0    50   ~ 0
-A12
+A0
+Text Label 5050 5400 0    50   ~ 0
+A1
+Text Label 5050 5600 0    50   ~ 0
+A2
+Text Label 5050 5700 0    50   ~ 0
+A3
 Text Label 5050 6500 0    50   ~ 0
-A13
+A4
+Text Label 5050 4300 0    50   ~ 0
+A5
+Text Label 5050 6400 0    50   ~ 0
+A6
+Text Label 5050 4200 0    50   ~ 0
+A7
+Text Label 5050 6200 0    50   ~ 0
+A8
+Text Label 5050 5300 0    50   ~ 0
+A9
 Text Label 5050 4400 0    50   ~ 0
+A10
+Text Label 5050 4900 0    50   ~ 0
+A11
+Text Label 5050 6000 0    50   ~ 0
+A12
+Text Label 5050 5200 0    50   ~ 0
+A13
+Text Label 5050 6600 0    50   ~ 0
 BA1
-Text Label 5050 4600 0    50   ~ 0
+Text Label 5050 4500 0    50   ~ 0
 BA2
 Text Label 5050 5800 0    50   ~ 0
 CK_P
 Text Label 5050 5900 0    50   ~ 0
 CK_N
-Text Label 5050 4200 0    50   ~ 0
+Text Label 5050 6300 0    50   ~ 0
 CK_E
-Text Label 5050 6600 0    50   ~ 0
+Text Label 5050 4600 0    50   ~ 0
 CS_N
-Text Label 5050 4500 0    50   ~ 0
+Text Label 5050 5100 0    50   ~ 0
 RAS_N
-Text Label 5050 4800 0    50   ~ 0
+Text Label 5050 4700 0    50   ~ 0
 CAS_N
-Text Label 5050 4300 0    50   ~ 0
+Text Label 5050 4800 0    50   ~ 0
 WE_N
-Text Label 5050 1900 0    50   ~ 0
+Text Label 5050 1800 0    50   ~ 0
 DQ0
-Text Label 5050 2000 0    50   ~ 0
+Text Label 5050 2700 0    50   ~ 0
 DQ1
-Text Label 5050 2100 0    50   ~ 0
+Text Label 5050 1900 0    50   ~ 0
 DQ2
 Text Label 5050 2400 0    50   ~ 0
 DQ3
-Text Label 5050 2500 0    50   ~ 0
+Text Label 5050 2000 0    50   ~ 0
 DQ4
-Text Label 5050 2600 0    50   ~ 0
-DQ5
-Text Label 5050 2700 0    50   ~ 0
-DQ6
 Text Label 5050 2800 0    50   ~ 0
+DQ5
+Text Label 5050 2100 0    50   ~ 0
+DQ6
+Text Label 5050 2600 0    50   ~ 0
 DQ7
-Text Label 5050 3100 0    50   ~ 0
-DQ8
-Text Label 5050 3200 0    50   ~ 0
-DQ9
-Text Label 5050 3300 0    50   ~ 0
-DQ10
 Text Label 5050 3600 0    50   ~ 0
+DQ8
+Text Label 5050 3900 0    50   ~ 0
+DQ9
+Text Label 5050 3200 0    50   ~ 0
+DQ10
+Text Label 5050 3100 0    50   ~ 0
 DQ11
-Text Label 5050 3700 0    50   ~ 0
+Text Label 5050 3300 0    50   ~ 0
 DQ12
 Text Label 5050 3800 0    50   ~ 0
 DQ13
-Text Label 5050 3900 0    50   ~ 0
-DQ14
 Text Label 5050 4000 0    50   ~ 0
+DQ14
+Text Label 5050 3000 0    50   ~ 0
 DQ15
 Text Label 5050 3400 0    50   ~ 0
 UDQS_P
@@ -1123,15 +1124,15 @@ Text Label 5050 2200 0    50   ~ 0
 LDQS_P
 Text Label 5050 2300 0    50   ~ 0
 LDQS_N
-Text Label 5050 1800 0    50   ~ 0
+Text Label 5050 2500 0    50   ~ 0
 LDM
-Text Label 5050 3000 0    50   ~ 0
+Text Label 5050 3700 0    50   ~ 0
 UDM
-Text Label 5050 5500 0    50   ~ 0
+Text Label 5050 5000 0    50   ~ 0
 ODT
 Text Label 5050 1700 0    50   ~ 0
 RESET_N
-Text Label 5050 5000 0    50   ~ 0
+Text Label 5050 5500 0    50   ~ 0
 BA0
 NoConn ~ 9450 5700
 Wire Wire Line
