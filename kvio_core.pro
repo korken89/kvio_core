@@ -1,4 +1,4 @@
-update=sön  7 jul 2019 18:54:36
+update=mån  8 jul 2019 20:06:37
 version=1
 last_client=kicad
 [general]
@@ -347,6 +347,39 @@ dPairWidth=0.103
 dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/11]
+Name=DDR3_CONTROL_LM1.0
+Clearance=0.1
+TrackWidth=0.134
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.095
+dPairGap=0.2
+dPairViaGap=0.25
+[pcbnew/Netclasses/12]
+Name=DDR3_DBUS0_LM1.0
+Clearance=0.1
+TrackWidth=0.142
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.098
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/13]
+Name=DDR3_DBUS1_LM1.0
+Clearance=0.1
+TrackWidth=0.142
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.098
+dPairGap=0.15
+dPairViaGap=0.25
+[pcbnew/Netclasses/14]
 Name=power
 Clearance=0.1
 TrackWidth=0.2
