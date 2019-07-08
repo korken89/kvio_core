@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1042,8 +1041,6 @@ Text Label 5050 6100 0    50   ~ 0
 A0
 Text Label 5050 5400 0    50   ~ 0
 A1
-Text Label 5050 5600 0    50   ~ 0
-A2
 Text Label 5050 5700 0    50   ~ 0
 A3
 Text Label 5050 6500 0    50   ~ 0
@@ -1052,8 +1049,6 @@ Text Label 5050 4300 0    50   ~ 0
 A5
 Text Label 5050 6400 0    50   ~ 0
 A6
-Text Label 5050 4200 0    50   ~ 0
-A7
 Text Label 5050 6200 0    50   ~ 0
 A8
 Text Label 5050 5300 0    50   ~ 0
@@ -1264,4 +1259,8 @@ Wire Wire Line
 	12550 6900 12550 6950
 Text Label 11950 6900 0    50   ~ 0
 ZQ
+Text Label 5050 5600 0    50   ~ 0
+A2
+Text Label 5050 4200 0    50   ~ 0
+A7
 $EndSCHEMATC
