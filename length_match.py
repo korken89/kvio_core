@@ -134,12 +134,17 @@ def get_board_properties(filename, chip_ref):
 
 def plist(netclass, tolerance, nets, die_lengths):
     max_length = 0
+    max_length_die = 0
     min_length = 1e12
     name_width = max(len(n) for (n, l) in nets) +3
 
     for (net,netlen) in nets:
         final_len = netlen + die_lengths[net]
-        max_length = max(max_length, final_len)
+
+        if final_len > max_length:
+            max_length = final_len
+            max_length_die = die_lengths[net]
+
         min_length = min(min_length, final_len)
 
     variance = abs(max_length - min_length)
@@ -157,12 +162,17 @@ def plist(netclass, tolerance, nets, die_lengths):
         final_len = netlen + die_lengths[net]
         diff = final_len - max_length
 
-        text_color = BRIGHT_RED
+        text_color = BRIGHT_GREEN
+        kicad_length = ""
 
-        if abs(diff) <= tolerance:
-            text_color = BRIGHT_GREEN
+        if abs(diff) > tolerance:
+            text_color = BRIGHT_RED
+            kicad_length = "     {0:.2f} mm".format(max_length - die_lengths[net])
 
-        print_color(text_color, "{0: <{width}}".format(net, width=name_width) + "{0:.2f} mm".format(final_len) + " ({0:.2f} mm)".format(diff))
+        print_color(text_color, "{0: <{width}}".format(net, width=name_width) + \
+                                "{0:.2f} mm".format(final_len) + \
+                                " ({0:.2f} mm)".format(diff) + \
+                                kicad_length)
 
 if __name__ == "__main__":
     try:
@@ -191,6 +201,7 @@ if __name__ == "__main__":
         (properties, die_lengths) = get_board_properties(filepath, chip_ref)
 
         os.system('clear')
+        print("NAME           CURRENT LENGTH (ERROR)          SET KICAD LENGTH MATCHER TO THIS")
         for (netclass, (tolerance, nets)) in sorted(properties.items()):
             plist(netclass, tolerance, nets, die_lengths)
 
