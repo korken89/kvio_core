@@ -163,11 +163,11 @@ def plist(netclass, tolerance, nets, die_lengths):
         diff = final_len - max_length
 
         text_color = BRIGHT_GREEN
-        kicad_length = ""
 
         if abs(diff) > tolerance:
             text_color = BRIGHT_RED
-            kicad_length = "     {0:.2f} mm".format(max_length - die_lengths[net])
+
+        kicad_length = "     {0:.2f} mm".format(max_length - die_lengths[net])
 
         print_color(text_color, "{0: <{width}}".format(net, width=name_width) + \
                                 "{0:.2f} mm".format(final_len) + \
