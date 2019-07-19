@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1950 700  0    50   ~ 0
-VCCO_14
 $Sheet
 S 14400 6900 700  700 
 U 5D0C5174
@@ -34,103 +32,6 @@ F0 "Config" 50
 F1 "config.sch" 50
 F2 "VCCO_0" I L 14400 8000 50 
 $EndSheet
-Text Label 14300 7200 2    50   ~ 0
-VCCO_16
-Text Label 14300 7100 2    50   ~ 0
-VCCO_35
-Text Label 14300 7000 2    50   ~ 0
-VCCO_34
-Text Label 14300 7400 2    50   ~ 0
-VCCO_14
-Wire Wire Line
-	14300 7000 14400 7000
-Wire Wire Line
-	14400 7100 14300 7100
-Wire Wire Line
-	14300 7200 14400 7200
-Wire Wire Line
-	14400 7300 14300 7300
-Wire Wire Line
-	14400 7400 14300 7400
-Wire Wire Line
-	14300 8000 14400 8000
-$Comp
-L FPGA_Xilinx_Artix7:XC7A100T-CSG324 U101
-U 1 1 5D185E2E
-P 2950 3700
-F 0 "U101" H 2950 725 50  0000 C CNN
-F 1 "XC7A100T-CSG324" H 2950 634 50  0000 C CNN
-F 2 "bga:CSG324_Artix7_100T" H 2950 3700 50  0001 C CNN
-F 3 "" H 2950 3700 50  0000 C CNN
-	1    2950 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 700  1450 700 
-Wire Wire Line
-	14400 7500 14300 7500
-Wire Wire Line
-	14300 7500 14300 8000
-Text Label 14300 7300 2    50   ~ 0
-VCCO_15
-Text Label 4650 700  0    50   ~ 0
-VCCO_15
-Wire Wire Line
-	4050 700  4150 700 
-Wire Wire Line
-	4050 700  4050 800 
-Wire Wire Line
-	4150 800  4150 700 
-Connection ~ 4150 700 
-Wire Wire Line
-	4150 700  4250 700 
-Wire Wire Line
-	4250 700  4250 800 
-Connection ~ 4250 700 
-Wire Wire Line
-	4250 700  4350 700 
-Wire Wire Line
-	4350 800  4350 700 
-Connection ~ 4350 700 
-Wire Wire Line
-	4350 700  4450 700 
-Wire Wire Line
-	4450 700  4450 800 
-Connection ~ 4450 700 
-Wire Wire Line
-	4450 700  4550 700 
-Wire Wire Line
-	4550 800  4550 700 
-Connection ~ 4550 700 
-Wire Wire Line
-	4550 700  4650 700 
-Wire Wire Line
-	1350 700  1350 800 
-Wire Wire Line
-	1450 800  1450 700 
-Connection ~ 1450 700 
-Wire Wire Line
-	1450 700  1550 700 
-Wire Wire Line
-	1550 800  1550 700 
-Connection ~ 1550 700 
-Wire Wire Line
-	1550 700  1650 700 
-Wire Wire Line
-	1650 800  1650 700 
-Connection ~ 1650 700 
-Wire Wire Line
-	1650 700  1750 700 
-Wire Wire Line
-	1750 800  1750 700 
-Connection ~ 1750 700 
-Wire Wire Line
-	1750 700  1850 700 
-Wire Wire Line
-	1850 800  1850 700 
-Connection ~ 1850 700 
-Wire Wire Line
-	1850 700  1950 700 
 $Sheet
 S 1350 9450 550  1450
 U 5CBF1C17
@@ -387,16 +288,37 @@ F1 "usb3.sch" 50
 F2 "VCCO_35" I L 14400 4500 50 
 F3 "VBUS" I L 14400 4700 50 
 $EndSheet
-Text Label 14300 6050 2    50   ~ 0
-VCCO_16
-Text Label 14300 4500 2    50   ~ 0
-VCCO_35
-Text Label 14300 5950 2    50   ~ 0
-VCCO_34
-Wire Wire Line
-	14300 5950 14400 5950
-Wire Wire Line
-	14400 4500 14300 4500
-Wire Wire Line
-	14300 6050 14400 6050
+$Comp
+L xilinx7:xc7a100t-csg324 U101
+U 2 1 5D4400FA
+P 3100 1850
+F 0 "U101" H 3742 2037 60  0000 C CNN
+F 1 "xc7a100t-csg324" H 3742 1931 60  0000 C CNN
+F 2 "bga:CSG324_Artix7_100T" H 3450 2100 50  0001 C CNN
+F 3 "" H 2900 1250 50  0001 C CNN
+	2    3100 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7a100t-csg324 U101
+U 3 1 5D446E37
+P 5200 1400
+F 0 "U101" H 6728 -1147 60  0000 L CNN
+F 1 "xc7a100t-csg324" H 6728 -1253 60  0000 L CNN
+F 2 "bga:CSG324_Artix7_100T" H 5550 1650 50  0001 C CNN
+F 3 "" H 5000 800 50  0001 C CNN
+	3    5200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L xilinx7:xc7a100t-csg324 U101
+U 4 1 5D452839
+P 4650 7450
+F 0 "U101" H 6178 6953 60  0000 L CNN
+F 1 "xc7a100t-csg324" H 6178 6847 60  0000 L CNN
+F 2 "bga:CSG324_Artix7_100T" H 5000 7700 50  0001 C CNN
+F 3 "" H 4450 6850 50  0001 C CNN
+	4    4650 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

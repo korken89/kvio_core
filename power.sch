@@ -13,311 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 5D25AA2D
-P 8550 6250
-AR Path="/5D25AA2D" Ref="#PWR?"  Part="1" 
-AR Path="/5D0C5174/5D25AA2D" Ref="#PWR0209"  Part="1" 
-F 0 "#PWR0209" H 8550 6000 50  0001 C CNN
-F 1 "GND" H 8555 6077 50  0001 C CNN
-F 2 "" H 8550 6250 50  0001 C CNN
-F 3 "" H 8550 6250 50  0001 C CNN
-	1    8550 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8550 6250 8650 6250
-Wire Wire Line
-	8650 6150 8550 6150
-Wire Wire Line
-	8550 6150 8550 6250
-Connection ~ 8550 6250
-Wire Wire Line
-	8650 6050 8550 6050
-Wire Wire Line
-	8550 6050 8550 6150
-Connection ~ 8550 6150
-Wire Wire Line
-	8650 5950 8550 5950
-Wire Wire Line
-	8550 5950 8550 6050
-Connection ~ 8550 6050
-Wire Wire Line
-	8650 5850 8550 5850
-Wire Wire Line
-	8550 5850 8550 5950
-Connection ~ 8550 5950
-Wire Wire Line
-	8650 5750 8550 5750
-Wire Wire Line
-	8550 5750 8550 5850
-Connection ~ 8550 5850
-Wire Wire Line
-	8650 5650 8550 5650
-Wire Wire Line
-	8550 5650 8550 5750
-Connection ~ 8550 5750
-Wire Wire Line
-	8650 5550 8550 5550
-Wire Wire Line
-	8550 5550 8550 5650
-Connection ~ 8550 5650
-Wire Wire Line
-	8650 5450 8550 5450
-Wire Wire Line
-	8550 5450 8550 5550
-Connection ~ 8550 5550
-Wire Wire Line
-	8650 5350 8550 5350
-Wire Wire Line
-	8550 5350 8550 5450
-Connection ~ 8550 5450
-Wire Wire Line
-	8650 5250 8550 5250
-Wire Wire Line
-	8550 5250 8550 5350
-Connection ~ 8550 5350
-Wire Wire Line
-	8650 5150 8550 5150
-Wire Wire Line
-	8550 5150 8550 5250
-Connection ~ 8550 5250
-Wire Wire Line
-	8650 5050 8550 5050
-Wire Wire Line
-	8550 5050 8550 5150
-Connection ~ 8550 5150
-Wire Wire Line
-	8650 4950 8550 4950
-Wire Wire Line
-	8550 4950 8550 5050
-Connection ~ 8550 5050
-Wire Wire Line
-	8650 4850 8550 4850
-Wire Wire Line
-	8550 4850 8550 4950
-Connection ~ 8550 4950
-Wire Wire Line
-	8650 4750 8550 4750
-Wire Wire Line
-	8550 4750 8550 4850
-Connection ~ 8550 4850
-Wire Wire Line
-	8650 4650 8550 4650
-Wire Wire Line
-	8550 4650 8550 4750
-Connection ~ 8550 4750
-Wire Wire Line
-	8650 4550 8550 4550
-Wire Wire Line
-	8550 4550 8550 4650
-Connection ~ 8550 4650
-Wire Wire Line
-	8650 4450 8550 4450
-Wire Wire Line
-	8550 4450 8550 4550
-Connection ~ 8550 4550
-Wire Wire Line
-	8650 4350 8550 4350
-Wire Wire Line
-	8550 4350 8550 4450
-Connection ~ 8550 4450
-Wire Wire Line
-	8650 4250 8550 4250
-Wire Wire Line
-	8550 4250 8550 4350
-Connection ~ 8550 4350
-Connection ~ 8550 4250
-Wire Wire Line
-	8650 4150 8550 4150
-Connection ~ 8550 4150
-Wire Wire Line
-	8550 4150 8550 4250
-Wire Wire Line
-	8550 4050 8650 4050
-Connection ~ 8550 4050
-Wire Wire Line
-	8550 4050 8550 4150
-Wire Wire Line
-	8650 3950 8550 3950
-Wire Wire Line
-	8550 3950 8550 4050
-$Comp
-L power:GND #PWR?
-U 1 1 5D25AA80
-P 10750 6250
-AR Path="/5D25AA80" Ref="#PWR?"  Part="1" 
-AR Path="/5D0C5174/5D25AA80" Ref="#PWR0210"  Part="1" 
-F 0 "#PWR0210" H 10750 6000 50  0001 C CNN
-F 1 "GND" H 10755 6077 50  0001 C CNN
-F 2 "" H 10750 6250 50  0001 C CNN
-F 3 "" H 10750 6250 50  0001 C CNN
-	1    10750 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 6250 10750 6250
-Connection ~ 10750 6250
-Wire Wire Line
-	10650 6150 10750 6150
-Connection ~ 10750 6150
-Wire Wire Line
-	10750 6150 10750 6250
-Wire Wire Line
-	10650 6050 10750 6050
-Connection ~ 10750 6050
-Wire Wire Line
-	10750 6050 10750 6150
-Wire Wire Line
-	10650 5950 10750 5950
-Connection ~ 10750 5950
-Wire Wire Line
-	10750 5950 10750 6050
-Wire Wire Line
-	10650 5850 10750 5850
-Connection ~ 10750 5850
-Wire Wire Line
-	10750 5850 10750 5950
-Wire Wire Line
-	10650 5750 10750 5750
-Wire Wire Line
-	10650 5650 10750 5650
-Wire Wire Line
-	10650 5550 10750 5550
-Wire Wire Line
-	10650 5450 10750 5450
-Wire Wire Line
-	10650 5350 10750 5350
-Wire Wire Line
-	10650 5250 10750 5250
-Wire Wire Line
-	10650 5150 10750 5150
-Wire Wire Line
-	10650 5050 10750 5050
-Wire Wire Line
-	10650 4950 10750 4950
-Wire Wire Line
-	10650 4850 10750 4850
-Wire Wire Line
-	10650 4750 10750 4750
-Wire Wire Line
-	10650 4650 10750 4650
-Wire Wire Line
-	10650 4550 10750 4550
-Wire Wire Line
-	10650 4450 10750 4450
-Wire Wire Line
-	10650 4350 10750 4350
-Wire Wire Line
-	10650 4250 10750 4250
-Wire Wire Line
-	10650 4150 10750 4150
-Wire Wire Line
-	10650 4050 10750 4050
-Connection ~ 10750 5750
-Wire Wire Line
-	10750 5750 10750 5850
-Connection ~ 10750 5650
-Wire Wire Line
-	10750 5650 10750 5750
-Connection ~ 10750 5550
-Wire Wire Line
-	10750 5550 10750 5650
-Connection ~ 10750 5450
-Wire Wire Line
-	10750 5450 10750 5550
-Connection ~ 10750 5350
-Wire Wire Line
-	10750 5350 10750 5450
-Connection ~ 10750 5250
-Wire Wire Line
-	10750 5250 10750 5350
-Connection ~ 10750 5150
-Wire Wire Line
-	10750 5150 10750 5250
-Connection ~ 10750 5050
-Wire Wire Line
-	10750 5050 10750 5150
-Connection ~ 10750 4950
-Wire Wire Line
-	10750 4950 10750 5050
-Connection ~ 10750 4850
-Wire Wire Line
-	10750 4850 10750 4950
-Connection ~ 10750 4750
-Wire Wire Line
-	10750 4750 10750 4850
-Connection ~ 10750 4650
-Wire Wire Line
-	10750 4650 10750 4750
-Connection ~ 10750 4550
-Wire Wire Line
-	10750 4550 10750 4650
-Connection ~ 10750 4450
-Wire Wire Line
-	10750 4450 10750 4550
-Connection ~ 10750 4350
-Wire Wire Line
-	10750 4350 10750 4450
-Connection ~ 10750 4250
-Wire Wire Line
-	10750 4250 10750 4350
-Connection ~ 10750 4150
-Wire Wire Line
-	10750 4150 10750 4250
-Wire Wire Line
-	10750 4050 10750 4150
-Wire Wire Line
-	8650 3250 8550 3250
-Wire Wire Line
-	8550 3350 8650 3350
-Wire Wire Line
-	10750 2950 10750 2850
-Wire Wire Line
-	10750 2450 10650 2450
-Wire Wire Line
-	10650 2550 10750 2550
-Connection ~ 10750 2550
-Wire Wire Line
-	10750 2550 10750 2450
-Wire Wire Line
-	10650 2650 10750 2650
-Connection ~ 10750 2650
-Wire Wire Line
-	10750 2650 10750 2550
-Wire Wire Line
-	10650 2750 10750 2750
-Connection ~ 10750 2750
-Wire Wire Line
-	10750 2750 10750 2650
-Wire Wire Line
-	10650 2850 10750 2850
-Connection ~ 10750 2850
-Wire Wire Line
-	10750 2850 10750 2750
-Wire Wire Line
-	8650 2450 8550 2450
-Wire Wire Line
-	8550 2550 8650 2550
-Text Label 8550 2450 2    50   ~ 0
+	6150 3850 6050 3850
+Text Label 6050 3750 2    50   ~ 0
 VCCAUX
-Text Label 8550 3250 2    50   ~ 0
+Text Label 6050 3850 2    50   ~ 0
 VCCBRAM
-Wire Wire Line
-	8550 3250 8550 3350
-Text Label 8550 3150 2    50   ~ 0
+Text Label 6050 4050 2    50   ~ 0
 VCCBAT
 Wire Wire Line
-	8550 3150 8650 3150
-Text Label 8550 3050 2    50   ~ 0
+	6050 4050 6150 4050
+Text Label 6050 4950 2    50   ~ 0
 VCCADC
 Wire Wire Line
-	8550 3050 8650 3050
-Text Label 8550 2950 2    50   ~ 0
+	6050 4950 6150 4950
+Text Label 6050 5050 2    50   ~ 0
 GNDADC
 Wire Wire Line
-	8550 2950 8650 2950
+	6050 5050 6150 5050
 $Comp
 L Device:C_Small C?
 U 1 1 5D2790E8
@@ -670,7 +383,7 @@ F 3 "" H 3300 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3000 900 
-Text Label 3350 700  0    50   ~ 0
+Text Label 3750 700  0    50   ~ 0
 VCCO_34
 $Comp
 L Device:C_Small C?
@@ -1162,12 +875,12 @@ Wire Wire Line
 	3300 2300 3000 2300
 Connection ~ 3000 2300
 Connection ~ 3300 2500
-Text Label 3350 1100 0    50   ~ 0
+Text Label 3750 1100 0    50   ~ 0
 VCCO_35
-Text Label 3350 1500 0    50   ~ 0
+Text Label 3750 1500 0    50   ~ 0
 VCCO_16
 Connection ~ 3300 1700
-Text Label 3350 2300 0    50   ~ 0
+Text Label 3750 2300 0    50   ~ 0
 VCCO_14
 $Comp
 L Device:C_Small C?
@@ -1299,14 +1012,6 @@ Wire Wire Line
 Connection ~ 1800 2900
 Wire Wire Line
 	1800 2900 2100 2900
-Text HLabel 3750 700  2    50   Input ~ 0
-VCCO_34
-Text HLabel 3750 1100 2    50   Input ~ 0
-VCCO_35
-Text HLabel 3750 1500 2    50   Input ~ 0
-VCCO_16
-Text HLabel 3750 2300 2    50   Input ~ 0
-VCCO_14
 Wire Wire Line
 	3300 2300 3750 2300
 Connection ~ 3300 2300
@@ -1319,81 +1024,10 @@ Connection ~ 3300 1100
 Wire Wire Line
 	3300 700  3750 700 
 Connection ~ 3300 700 
-Text Label 3350 600  0    50   ~ 0
+Text Label 3750 3900 0    50   ~ 0
 VCCO_0
-Text HLabel 3750 600  2    50   Input ~ 0
-VCCO_0
-Wire Wire Line
-	3350 600  3750 600 
-Text Label 10750 2450 0    50   ~ 0
+Text Label 6050 3950 2    50   ~ 0
 VCCINT
-$Comp
-L FPGA_Xilinx_Artix7:XC7A100T-CSG324 U?
-U 5 1 5D247DDD
-P 9650 4350
-AR Path="/5D247DDD" Ref="U?"  Part="5" 
-AR Path="/5D0C5174/5D247DDD" Ref="U101"  Part="5" 
-F 0 "U101" H 9650 6517 50  0000 C CNN
-F 1 "XC7A100T-CSG324" H 9650 6426 50  0000 C CNN
-F 2 "" H 9650 4350 50  0001 C CNN
-F 3 "" H 9650 4350 50  0000 C CNN
-	5    9650 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 3050 10750 3050
-Connection ~ 10750 3050
-Wire Wire Line
-	10750 3050 10750 2950
-Wire Wire Line
-	10650 3150 10750 3150
-Connection ~ 10750 3150
-Wire Wire Line
-	10750 3150 10750 3050
-Wire Wire Line
-	10650 3250 10750 3250
-Connection ~ 10750 3250
-Wire Wire Line
-	10750 3250 10750 3150
-Wire Wire Line
-	10650 3350 10750 3350
-Connection ~ 10750 3350
-Wire Wire Line
-	10750 3350 10750 3250
-Wire Wire Line
-	10650 3550 10750 3550
-Connection ~ 10750 3550
-Wire Wire Line
-	10650 3650 10750 3650
-Connection ~ 10750 3650
-Wire Wire Line
-	10750 3650 10750 3550
-Wire Wire Line
-	10650 3750 10750 3750
-Wire Wire Line
-	10750 3750 10750 3650
-Wire Wire Line
-	10650 2950 10750 2950
-Wire Wire Line
-	10750 3350 10750 3450
-Connection ~ 10750 2950
-Wire Wire Line
-	10750 3450 10650 3450
-Connection ~ 10750 3450
-Wire Wire Line
-	10750 3450 10750 3550
-Wire Wire Line
-	8550 2450 8550 2550
-Wire Wire Line
-	8550 2550 8550 2650
-Wire Wire Line
-	8550 2650 8650 2650
-Connection ~ 8550 2550
-Wire Wire Line
-	8550 2650 8550 2750
-Wire Wire Line
-	8550 2750 8650 2750
-Connection ~ 8550 2650
 $Comp
 L Device:C_Small C?
 U 1 1 5D48D08B
@@ -1571,7 +1205,7 @@ Wire Wire Line
 	3300 1900 3000 1900
 Connection ~ 3000 1900
 Connection ~ 3300 2100
-Text Label 3350 1900 0    50   ~ 0
+Text Label 3750 1900 0    50   ~ 0
 VCCO_15
 $Comp
 L Device:C_Small C?
@@ -1592,8 +1226,6 @@ Connection ~ 900  2100
 Wire Wire Line
 	900  1900 600  1900
 Connection ~ 900  1900
-Text HLabel 3750 1900 2    50   Input ~ 0
-VCCO_15
 Wire Wire Line
 	3300 1900 3750 1900
 Connection ~ 3300 1900
@@ -1814,12 +1446,12 @@ Wire Wire Line
 $Comp
 L Device:Ferrite_Bead_Small FB201
 U 1 1 5D27B5E9
-P 7650 3100
-F 0 "FB201" V 7505 3100 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 7504 3100 50  0001 C CNN
-F 2 "passive:R_0402" V 7580 3100 50  0001 C CNN
-F 3 "~" H 7650 3100 50  0001 C CNN
-	1    7650 3100
+P 5100 4950
+F 0 "FB201" V 4955 4950 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 4954 4950 50  0001 C CNN
+F 2 "passive:R_0402" V 5030 4950 50  0001 C CNN
+F 3 "~" H 5100 4950 50  0001 C CNN
+	1    5100 4950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2882,4 +2514,110 @@ Text Label 8200 9100 0    50   ~ 0
 SW13
 Text Label 11050 9100 0    50   ~ 0
 SW10
+$Comp
+L xilinx7:xc7a100t-csg324 U?
+U 7 1 5D5B4605
+P 6350 3650
+AR Path="/5D5B4605" Ref="U?"  Part="7" 
+AR Path="/5D0C5174/5D5B4605" Ref="U101"  Part="7" 
+F 0 "U101" H 7478 2903 60  0000 L CNN
+F 1 "xc7a100t-csg324" H 7478 2797 60  0000 L CNN
+F 2 "bga:CSG324_Artix7_100T" H 6700 3900 50  0001 C CNN
+F 3 "" H 6150 3050 50  0001 C CNN
+	7    6350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3750 6150 3750
+Wire Wire Line
+	6050 3950 6150 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5D9010B7
+P 6100 5150
+AR Path="/5D9010B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D9010B7" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 6100 4900 50  0001 C CNN
+F 1 "GND" H 6105 4977 50  0001 C CNN
+F 2 "" H 6100 5150 50  0001 C CNN
+F 3 "" H 6100 5150 50  0001 C CNN
+	1    6100 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 5150 6150 5150
+$Comp
+L Device:C_Small C?
+U 1 1 5D942C7B
+P 3000 4000
+AR Path="/5D942C7B" Ref="C?"  Part="0" 
+AR Path="/5D1FE04F/5D942C7B" Ref="C?"  Part="1" 
+AR Path="/5D0C5174/5D942C7B" Ref="C283"  Part="1" 
+F 0 "C283" H 3092 4046 50  0000 L CNN
+F 1 "0.1u" H 3092 3955 50  0000 L CNN
+F 2 "passive:C_0201" H 3000 4000 50  0001 C CNN
+F 3 "~" H 3000 4000 50  0001 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D942C81
+P 3300 4100
+AR Path="/5D942C81" Ref="#PWR?"  Part="1" 
+AR Path="/5D1FE04F/5D942C81" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D942C81" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 3300 3850 50  0001 C CNN
+F 1 "GND" H 3305 3927 50  0001 C CNN
+F 2 "" H 3300 4100 50  0001 C CNN
+F 3 "" H 3300 4100 50  0001 C CNN
+	1    3300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D942C87
+P 3300 4000
+AR Path="/5D942C87" Ref="C?"  Part="0" 
+AR Path="/5D1FE04F/5D942C87" Ref="C?"  Part="1" 
+AR Path="/5D0C5174/5D942C87" Ref="C284"  Part="1" 
+F 0 "C284" H 3392 4046 50  0000 L CNN
+F 1 "0.1u" H 3392 3955 50  0000 L CNN
+F 2 "passive:C_0201" H 3300 4000 50  0001 C CNN
+F 3 "~" H 3300 4000 50  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4100 3300 4100
+Wire Wire Line
+	3300 3900 3000 3900
+Connection ~ 3300 4100
+Wire Wire Line
+	3300 3900 3750 3900
+Connection ~ 3300 3900
+Text Label 6050 4650 2    50   ~ 0
+VCCO_34
+Text Label 6050 4750 2    50   ~ 0
+VCCO_35
+Text Label 6050 4550 2    50   ~ 0
+VCCO_16
+Text Label 6050 4350 2    50   ~ 0
+VCCO_14
+Text Label 6050 4450 2    50   ~ 0
+VCCO_15
+Text Label 6050 4250 2    50   ~ 0
+VCCO_0
+Wire Wire Line
+	6050 4250 6150 4250
+Wire Wire Line
+	6050 4350 6150 4350
+Wire Wire Line
+	6050 4450 6150 4450
+Wire Wire Line
+	6050 4550 6150 4550
+Wire Wire Line
+	6050 4650 6150 4650
+Wire Wire Line
+	6050 4750 6150 4750
 $EndSCHEMATC

@@ -13,50 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	5000 2150 4900 2150
-Wire Wire Line
-	5000 2150 5000 2250
-Connection ~ 5000 2150
-Wire Wire Line
-	5100 2150 5000 2150
-Wire Wire Line
-	5100 2250 5100 2150
-Connection ~ 5100 2150
-Wire Wire Line
-	5200 2150 5100 2150
-Wire Wire Line
-	5200 2150 5200 2250
-Connection ~ 5200 2150
-Wire Wire Line
-	5300 2150 5200 2150
-Wire Wire Line
-	5300 2250 5300 2150
-Connection ~ 5300 2150
-Wire Wire Line
-	5400 2150 5300 2150
-Wire Wire Line
-	5400 2150 5400 2250
-Wire Wire Line
-	5500 2250 5500 2150
-Connection ~ 5400 2150
-Wire Wire Line
-	5500 2150 5400 2150
-$Comp
-L FPGA_Xilinx_Artix7:XC7A100T-CSG324 U?
-U 3 1 5D81E77C
-P 3900 5150
-AR Path="/5D81E77C" Ref="U?"  Part="3" 
-AR Path="/5D80E8D8/5D81E77C" Ref="U101"  Part="3" 
-F 0 "U101" H 5680 5203 50  0000 L CNN
-F 1 "XC7A100T-CSG324" H 5680 5112 50  0000 L CNN
-F 2 "bga:CSG324" H 3900 5150 50  0001 C CNN
-F 3 "" H 3900 5150 50  0000 C CNN
-	3    3900 5150
-	-1   0    0    -1  
-$EndComp
-Text HLabel 4900 2150 0    50   Input ~ 0
-3V3
 Text HLabel 13600 2250 1    50   Input ~ 0
 VBUS
 $Comp
@@ -430,7 +386,7 @@ RD_N
 Text Label 10400 7450 2    50   ~ 0
 OE_N
 Wire Wire Line
-	5900 3050 6000 3050
+	5900 2950 6000 2950
 Wire Wire Line
 	5900 3150 6000 3150
 Wire Wire Line
@@ -515,20 +471,6 @@ Wire Wire Line
 	5900 7150 6000 7150
 Wire Wire Line
 	5900 7250 6000 7250
-Wire Wire Line
-	5900 7350 6000 7350
-Wire Wire Line
-	5900 7450 6000 7450
-Wire Wire Line
-	5900 7550 6000 7550
-Wire Wire Line
-	5900 7650 6000 7650
-Wire Wire Line
-	5900 7750 6000 7750
-Wire Wire Line
-	5900 7850 6000 7850
-Wire Wire Line
-	5900 7950 6000 7950
 Wire Wire Line
 	10400 3150 10550 3150
 Wire Wire Line
@@ -617,7 +559,7 @@ Wire Wire Line
 	10400 7600 10550 7600
 Text Label 6000 5350 0    50   ~ 0
 CLK
-Text Label 6000 3050 0    50   ~ 0
+Text Label 6000 2950 0    50   ~ 0
 DATA_0
 Text Label 6000 3150 0    50   ~ 0
 DATA_1
@@ -1172,8 +1114,6 @@ F 3 "~" H 13200 4050 50  0001 C CNN
 	1    13200 4050
 	0    1    1    0   
 $EndComp
-Text Label 5500 2150 0    50   ~ 0
-3V3
 Text Label 13900 5500 0    50   ~ 0
 3V3
 Wire Wire Line
@@ -1439,4 +1379,17 @@ Wire Wire Line
 Wire Wire Line
 	12450 6700 12750 6700
 Connection ~ 12750 6700
+$Comp
+L xilinx7:xc7a100t-csg324 U?
+U 6 1 5D61F5FA
+P 5700 2850
+AR Path="/5D61F5FA" Ref="U?"  Part="6" 
+AR Path="/5D80E8D8/5D61F5FA" Ref="U101"  Part="6" 
+F 0 "U101" H 6342 3037 60  0000 C CNN
+F 1 "xc7a100t-csg324" H 6342 2931 60  0000 C CNN
+F 2 "bga:CSG324_Artix7_100T" H 6050 3100 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	6    5700 2850
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
