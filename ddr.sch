@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -204,7 +205,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 6700 11950 6700
 Wire Wire Line
-	11850 7000 11950 7000
+	11850 7000 11900 7000
 $Comp
 L power:GND #PWR?
 U 1 1 5D2E6AE2
@@ -275,9 +276,10 @@ L ddr:DDR3-16x U1201
 U 1 1 5D2B6E15
 P 9550 3600
 F 0 "U1201" H 10650 3050 50  0000 C CNN
-F 1 "DDR3-16x" H 10650 2950 50  0000 C CNN
+F 1 "MT41J128M16JT-125:K" H 10650 2950 50  0000 C CNN
 F 2 "bga:BGA-96_8.0x14.0mm_DDR16" H 9550 3600 50  0001 C CNN
-F 3 "" H 9550 3600 50  0001 C CNN
+F 3 "www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/DDR3/2Gb_DDR3_SDRAM.pdf" H 9550 3600 50  0001 C CNN
+F 4 "MT41J128M16JT-125:K" H 9550 3600 50  0001 C CNN "MPN"
 	1    9550 3600
 	1    0    0    -1  
 $EndComp
@@ -665,20 +667,6 @@ F 3 "~" H 11950 2300 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 5D3CE2CA
-P 9850 2600
-AR Path="/5D3CE2CA" Ref="C?"  Part="0" 
-AR Path="/5D0C5174/5D3CE2CA" Ref="C?"  Part="1" 
-AR Path="/5D7D6E29/5D3CE2CA" Ref="C1205"  Part="1" 
-F 0 "C1205" H 9942 2646 50  0000 L CNN
-F 1 "0.1u" H 9942 2555 50  0000 L CNN
-F 2 "passive:C_0201" H 9850 2600 50  0001 C CNN
-F 3 "~" H 9850 2600 50  0001 C CNN
-	1    9850 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 5D3CE2D0
 P 10150 2600
 AR Path="/5D3CE2D0" Ref="C?"  Part="0" 
@@ -689,20 +677,6 @@ F 1 "0.1u" H 10242 2555 50  0000 L CNN
 F 2 "passive:C_0201" H 10150 2600 50  0001 C CNN
 F 3 "~" H 10150 2600 50  0001 C CNN
 	1    10150 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5D3CE2D6
-P 10450 2600
-AR Path="/5D3CE2D6" Ref="C?"  Part="0" 
-AR Path="/5D0C5174/5D3CE2D6" Ref="C?"  Part="1" 
-AR Path="/5D7D6E29/5D3CE2D6" Ref="C1209"  Part="1" 
-F 0 "C1209" H 10542 2646 50  0000 L CNN
-F 1 "0.1u" H 10542 2555 50  0000 L CNN
-F 2 "passive:C_0201" H 10450 2600 50  0001 C CNN
-F 3 "~" H 10450 2600 50  0001 C CNN
-	1    10450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -853,8 +827,6 @@ Wire Wire Line
 	10750 2450 10450 2450
 Connection ~ 10450 2450
 Wire Wire Line
-	10450 2450 10450 2500
-Wire Wire Line
 	10450 2450 10150 2450
 Connection ~ 10150 2450
 Wire Wire Line
@@ -862,8 +834,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 2450 9850 2450
 Connection ~ 9850 2450
-Wire Wire Line
-	9850 2450 9850 2500
 Wire Wire Line
 	9850 2450 9550 2450
 Wire Wire Line
@@ -934,22 +904,11 @@ Wire Wire Line
 Wire Wire Line
 	12300 2750 11950 2750
 Wire Wire Line
-	9850 2750 9850 2700
-Wire Wire Line
 	10150 2700 10150 2750
 Connection ~ 10150 2750
 Wire Wire Line
-	10150 2750 9850 2750
-Wire Wire Line
-	10450 2700 10450 2750
-Connection ~ 10450 2750
-Wire Wire Line
-	10450 2750 10150 2750
-Wire Wire Line
 	10750 2700 10750 2750
 Connection ~ 10750 2750
-Wire Wire Line
-	10750 2750 10450 2750
 Wire Wire Line
 	11050 2700 11050 2750
 Connection ~ 11050 2750
@@ -971,12 +930,9 @@ Connection ~ 11950 2750
 Wire Wire Line
 	11950 2750 11650 2750
 Wire Wire Line
-	9850 2750 9350 2750
-Wire Wire Line
 	9350 2750 9350 2450
 Wire Wire Line
 	9350 2150 9550 2150
-Connection ~ 9850 2750
 Connection ~ 9550 2150
 Wire Wire Line
 	9350 2450 9250 2450
@@ -1224,4 +1180,57 @@ F 3 "" H 4550 900 50  0001 C CNN
 	5    4750 1500
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R1204
+U 1 1 5D7BD62A
+P 8850 6350
+F 0 "R1204" H 8909 6396 50  0000 L CNN
+F 1 "80" H 8909 6305 50  0000 L CNN
+F 2 "passive:R_0402" H 8850 6350 50  0001 C CNN
+F 3 "~" H 8850 6350 50  0001 C CNN
+	1    8850 6350
+	1    0    0    -1  
+$EndComp
+Text Label 8850 6200 2    50   ~ 0
+CK_P
+Text Label 8850 6550 2    50   ~ 0
+CK_N
+Wire Wire Line
+	8850 6450 8850 6550
+Wire Wire Line
+	8850 6200 8850 6250
+$Comp
+L Device:R_Small R1205
+U 1 1 5D7EB4BA
+P 11900 7200
+F 0 "R1205" H 11959 7246 50  0000 L CNN
+F 1 "4.7k" H 11959 7155 50  0000 L CNN
+F 2 "passive:R_0402" H 11900 7200 50  0001 C CNN
+F 3 "~" H 11900 7200 50  0001 C CNN
+	1    11900 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 7100 11900 7000
+Connection ~ 11900 7000
+Wire Wire Line
+	11900 7000 11950 7000
+$Comp
+L power:GND #PWR?
+U 1 1 5D817B65
+P 11900 7300
+AR Path="/5D817B65" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D817B65" Ref="#PWR?"  Part="1" 
+AR Path="/5D7D6E29/5D817B65" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 11900 7050 50  0001 C CNN
+F 1 "GND" H 11905 7127 50  0001 C CNN
+F 2 "" H 11900 7300 50  0001 C CNN
+F 3 "" H 11900 7300 50  0001 C CNN
+	1    11900 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2750 10150 2750
+Wire Wire Line
+	10150 2750 10750 2750
 $EndSCHEMATC

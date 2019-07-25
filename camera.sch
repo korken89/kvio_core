@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 9 13
 Title ""
 Date ""
 Rev ""
