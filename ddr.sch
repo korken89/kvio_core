@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1233,4 +1232,14 @@ Wire Wire Line
 	9350 2750 10150 2750
 Wire Wire Line
 	10150 2750 10750 2750
+Text Notes 6900 4900 0    50   ~ 0
+DESIGN NOTE:\nNo termination on the CMD/ADDR lines.\nAt 400 MHz the wavelength is about 375 mm, \nrouting is significantly shorter than this\n(currently about 30 mm)
+Wire Notes Line
+	6850 4450 6850 4950
+Wire Notes Line
+	6850 4950 8750 4950
+Wire Notes Line
+	8750 4950 8750 4450
+Wire Notes Line
+	8750 4450 6850 4450
 $EndSCHEMATC

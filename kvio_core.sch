@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -279,7 +278,7 @@ S 14400 4350 1050 950
 U 5D80E8D8
 F0 "USB3 Interface" 50
 F1 "usb3.sch" 50
-F3 "VBUS" I L 14400 4700 50 
+F2 "VBUS" I L 14400 4700 50 
 $EndSheet
 $Comp
 L xilinx7:xc7a100t-csg324 U101
