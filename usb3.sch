@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1114,13 +1115,9 @@ F 3 "~" H 13200 4050 50  0001 C CNN
 	1    13200 4050
 	0    1    1    0   
 $EndComp
-Text Label 13900 5500 0    50   ~ 0
-3V3
 Wire Wire Line
 	13900 5500 13650 5500
 Connection ~ 13650 5500
-Text Label 13900 5900 0    50   ~ 0
-3V3
 $Comp
 L Device:C_Small C?
 U 1 1 5DD185E0
@@ -1219,8 +1216,6 @@ Wire Wire Line
 Connection ~ 12350 4050
 Wire Wire Line
 	12350 4050 13100 4050
-Text Label 13450 4050 0    50   ~ 0
-3V3
 Wire Wire Line
 	13450 4050 13300 4050
 $Comp
@@ -1343,8 +1338,6 @@ F 3 "~" H 12900 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13150 4250 13000 4250
-Text Label 13150 4250 0    50   ~ 0
-3V3
 Wire Wire Line
 	12800 4250 12700 4250
 Wire Wire Line
@@ -1391,5 +1384,57 @@ F 2 "bga:CSG324_Artix7_100T" H 6050 3100 50  0001 C CNN
 F 3 "" H 5500 2250 50  0001 C CNN
 	6    5700 2850
 	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D550CDA
+P 13450 4050
+AR Path="/5D0C5174/5D550CDA" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5D550CDA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13450 3900 50  0001 C CNN
+F 1 "+3V3" V 13347 4087 50  0000 C CNN
+F 2 "" H 13450 4050 50  0001 C CNN
+F 3 "" H 13450 4050 50  0001 C CNN
+	1    13450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D55F9B0
+P 13150 4250
+AR Path="/5D0C5174/5D55F9B0" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5D55F9B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13150 4100 50  0001 C CNN
+F 1 "+3V3" V 13047 4287 50  0000 C CNN
+F 2 "" H 13150 4250 50  0001 C CNN
+F 3 "" H 13150 4250 50  0001 C CNN
+	1    13150 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D55FE79
+P 13900 5500
+AR Path="/5D0C5174/5D55FE79" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5D55FE79" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13900 5350 50  0001 C CNN
+F 1 "+3V3" V 13797 5537 50  0000 C CNN
+F 2 "" H 13900 5500 50  0001 C CNN
+F 3 "" H 13900 5500 50  0001 C CNN
+	1    13900 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D560807
+P 13900 5900
+AR Path="/5D0C5174/5D560807" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5D560807" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13900 5750 50  0001 C CNN
+F 1 "+3V3" V 13797 5937 50  0000 C CNN
+F 2 "" H 13900 5900 50  0001 C CNN
+F 3 "" H 13900 5900 50  0001 C CNN
+	1    13900 5900
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

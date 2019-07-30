@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kvio_core-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -940,197 +941,197 @@ Wire Wire Line
 	9350 2450 9350 2150
 Text Label 9250 2450 2    50   ~ 0
 DDR3_VDD
-Text Label 5050 6100 0    50   ~ 0
+Text Label 5200 7650 0    50   ~ 0
 A0
-Text Label 5050 5400 0    50   ~ 0
+Text Label 5200 6950 0    50   ~ 0
 A1
-Text Label 5050 5700 0    50   ~ 0
+Text Label 5200 7250 0    50   ~ 0
 A3
-Text Label 5050 6500 0    50   ~ 0
+Text Label 5200 8050 0    50   ~ 0
 A4
-Text Label 5050 4300 0    50   ~ 0
+Text Label 5200 5850 0    50   ~ 0
 A5
-Text Label 5050 6400 0    50   ~ 0
+Text Label 5200 7950 0    50   ~ 0
 A6
-Text Label 5050 6200 0    50   ~ 0
+Text Label 5200 7750 0    50   ~ 0
 A8
-Text Label 5050 5300 0    50   ~ 0
+Text Label 5200 6850 0    50   ~ 0
 A9
-Text Label 5050 4400 0    50   ~ 0
+Text Label 5200 5950 0    50   ~ 0
 A10
-Text Label 5050 4900 0    50   ~ 0
+Text Label 5200 6450 0    50   ~ 0
 A11
-Text Label 5050 6000 0    50   ~ 0
+Text Label 5200 7550 0    50   ~ 0
 A12
-Text Label 5050 5200 0    50   ~ 0
+Text Label 5200 6750 0    50   ~ 0
 A13
-Text Label 5050 1700 0    50   ~ 0
+Text Label 5200 3250 0    50   ~ 0
 BA1
-Text Label 5050 4500 0    50   ~ 0
+Text Label 5200 6050 0    50   ~ 0
 BA2
-Text Label 5050 5800 0    50   ~ 0
+Text Label 5200 7350 0    50   ~ 0
 CK_P
-Text Label 5050 5900 0    50   ~ 0
+Text Label 5200 7450 0    50   ~ 0
 CK_N
-Text Label 5050 6300 0    50   ~ 0
+Text Label 5200 7850 0    50   ~ 0
 CK_E
-Text Label 5050 4600 0    50   ~ 0
+Text Label 5200 6150 0    50   ~ 0
 CS_N
-Text Label 5050 5100 0    50   ~ 0
+Text Label 5200 6650 0    50   ~ 0
 RAS_N
-Text Label 5050 4700 0    50   ~ 0
+Text Label 5200 6250 0    50   ~ 0
 CAS_N
-Text Label 5050 4800 0    50   ~ 0
+Text Label 5200 6350 0    50   ~ 0
 WE_N
-Text Label 5050 1800 0    50   ~ 0
+Text Label 5200 3350 0    50   ~ 0
 DQ0
-Text Label 5050 2700 0    50   ~ 0
+Text Label 5200 4250 0    50   ~ 0
 DQ1
-Text Label 5050 1900 0    50   ~ 0
+Text Label 5200 3450 0    50   ~ 0
 DQ2
-Text Label 5050 2400 0    50   ~ 0
+Text Label 5200 3950 0    50   ~ 0
 DQ3
-Text Label 5050 2000 0    50   ~ 0
+Text Label 5200 3550 0    50   ~ 0
 DQ4
-Text Label 5050 2800 0    50   ~ 0
+Text Label 5200 4350 0    50   ~ 0
 DQ5
-Text Label 5050 2100 0    50   ~ 0
+Text Label 5200 3650 0    50   ~ 0
 DQ6
-Text Label 5050 2600 0    50   ~ 0
+Text Label 5200 4150 0    50   ~ 0
 DQ7
-Text Label 5050 3600 0    50   ~ 0
+Text Label 5200 5150 0    50   ~ 0
 DQ8
-Text Label 5050 3900 0    50   ~ 0
+Text Label 5200 5450 0    50   ~ 0
 DQ9
-Text Label 5050 3200 0    50   ~ 0
+Text Label 5200 4750 0    50   ~ 0
 DQ10
-Text Label 5050 3100 0    50   ~ 0
+Text Label 5200 4650 0    50   ~ 0
 DQ11
-Text Label 5050 3300 0    50   ~ 0
+Text Label 5200 4850 0    50   ~ 0
 DQ12
-Text Label 5050 3800 0    50   ~ 0
+Text Label 5200 5350 0    50   ~ 0
 DQ13
-Text Label 5050 4000 0    50   ~ 0
+Text Label 5200 5550 0    50   ~ 0
 DQ14
-Text Label 5050 3000 0    50   ~ 0
+Text Label 5200 4550 0    50   ~ 0
 DQ15
-Text Label 5050 3400 0    50   ~ 0
+Text Label 5200 4950 0    50   ~ 0
 UDQS_P
-Text Label 5050 3500 0    50   ~ 0
+Text Label 5200 5050 0    50   ~ 0
 UDQS_N
-Text Label 5050 2200 0    50   ~ 0
+Text Label 5200 3750 0    50   ~ 0
 LDQS_P
-Text Label 5050 2300 0    50   ~ 0
+Text Label 5200 3850 0    50   ~ 0
 LDQS_N
-Text Label 5050 2500 0    50   ~ 0
+Text Label 5200 4050 0    50   ~ 0
 LDM
-Text Label 5050 3700 0    50   ~ 0
+Text Label 5200 5250 0    50   ~ 0
 UDM
-Text Label 5050 5000 0    50   ~ 0
+Text Label 5200 6550 0    50   ~ 0
 ODT
-Text Label 5050 1600 0    50   ~ 0
+Text Label 5200 3150 0    50   ~ 0
 RESET_N
-Text Label 5050 5500 0    50   ~ 0
+Text Label 5200 7050 0    50   ~ 0
 BA0
 NoConn ~ 9450 5700
 Wire Wire Line
-	4950 1600 5050 1600
+	5100 3150 5200 3150
 Wire Wire Line
-	4950 1800 5050 1800
+	5100 3350 5200 3350
 Wire Wire Line
-	4950 1900 5050 1900
+	5100 3450 5200 3450
 Wire Wire Line
-	4950 2000 5050 2000
+	5100 3550 5200 3550
 Wire Wire Line
-	4950 2100 5050 2100
+	5100 3650 5200 3650
 Wire Wire Line
-	4950 2200 5050 2200
+	5100 3750 5200 3750
 Wire Wire Line
-	4950 2300 5050 2300
+	5100 3850 5200 3850
 Wire Wire Line
-	4950 2400 5050 2400
+	5100 3950 5200 3950
 Wire Wire Line
-	4950 2500 5050 2500
+	5100 4050 5200 4050
 Wire Wire Line
-	4950 2600 5050 2600
+	5100 4150 5200 4150
 Wire Wire Line
-	4950 2700 5050 2700
+	5100 4250 5200 4250
 Wire Wire Line
-	4950 2800 5050 2800
+	5100 4350 5200 4350
 Wire Wire Line
-	4950 3000 5050 3000
+	5100 4550 5200 4550
 Wire Wire Line
-	4950 3100 5050 3100
+	5100 4650 5200 4650
 Wire Wire Line
-	4950 3200 5050 3200
+	5100 4750 5200 4750
 Wire Wire Line
-	4950 3300 5050 3300
+	5100 4850 5200 4850
 Wire Wire Line
-	4950 3400 5050 3400
+	5100 4950 5200 4950
 Wire Wire Line
-	4950 3500 5050 3500
+	5100 5050 5200 5050
 Wire Wire Line
-	4950 3600 5050 3600
+	5100 5150 5200 5150
 Wire Wire Line
-	4950 3700 5050 3700
+	5100 5250 5200 5250
 Wire Wire Line
-	4950 3800 5050 3800
+	5100 5350 5200 5350
 Wire Wire Line
-	4950 3900 5050 3900
+	5100 5450 5200 5450
 Wire Wire Line
-	4950 4000 5050 4000
+	5100 5550 5200 5550
 Wire Wire Line
-	4950 4200 5050 4200
+	5100 5750 5200 5750
 Wire Wire Line
-	4950 4300 5050 4300
+	5100 5850 5200 5850
 Wire Wire Line
-	4950 4400 5050 4400
+	5100 5950 5200 5950
 Wire Wire Line
-	4950 4500 5050 4500
+	5100 6050 5200 6050
 Wire Wire Line
-	4950 4600 5050 4600
+	5100 6150 5200 6150
 Wire Wire Line
-	4950 4700 5050 4700
+	5100 6250 5200 6250
 Wire Wire Line
-	4950 4800 5050 4800
+	5100 6350 5200 6350
 Wire Wire Line
-	4950 4900 5050 4900
+	5100 6450 5200 6450
 Wire Wire Line
-	4950 5000 5050 5000
+	5100 6550 5200 6550
 Wire Wire Line
-	4950 5100 5050 5100
+	5100 6650 5200 6650
 Wire Wire Line
-	4950 5200 5050 5200
+	5100 6750 5200 6750
 Wire Wire Line
-	4950 5300 5050 5300
+	5100 6850 5200 6850
 Wire Wire Line
-	4950 5400 5050 5400
+	5100 6950 5200 6950
 Wire Wire Line
-	4950 5500 5050 5500
+	5100 7050 5200 7050
 Wire Wire Line
-	4950 5600 5050 5600
+	5100 7150 5200 7150
 Wire Wire Line
-	4950 5700 5050 5700
+	5100 7250 5200 7250
 Wire Wire Line
-	4950 5800 5050 5800
+	5100 7350 5200 7350
 Wire Wire Line
-	4950 5900 5050 5900
+	5100 7450 5200 7450
 Wire Wire Line
-	4950 6000 5050 6000
+	5100 7550 5200 7550
 Wire Wire Line
-	4950 6100 5050 6100
+	5100 7650 5200 7650
 Wire Wire Line
-	4950 6200 5050 6200
+	5100 7750 5200 7750
 Wire Wire Line
-	4950 6300 5050 6300
+	5100 7850 5200 7850
 Wire Wire Line
-	4950 6400 5050 6400
+	5100 7950 5200 7950
 Wire Wire Line
-	4950 6500 5050 6500
+	5100 8050 5200 8050
 Wire Wire Line
-	4950 1700 5050 1700
-NoConn ~ 4950 2900
-NoConn ~ 4950 4100
+	5100 3250 5200 3250
+NoConn ~ 5100 4450
+NoConn ~ 5100 5650
 $Comp
 L Device:R_Small R1203
 U 1 1 5D84CAC4
@@ -1162,21 +1163,21 @@ Wire Wire Line
 	12550 6900 12550 6950
 Text Label 11950 6900 0    50   ~ 0
 ZQ
-Text Label 5050 5600 0    50   ~ 0
+Text Label 5200 7150 0    50   ~ 0
 A2
-Text Label 5050 4200 0    50   ~ 0
+Text Label 5200 5750 0    50   ~ 0
 A7
 $Comp
 L xilinx7:xc7a100t-csg324 U?
 U 5 1 5D587F73
-P 4750 1500
+P 4900 3050
 AR Path="/5D587F73" Ref="U?"  Part="5" 
 AR Path="/5D7D6E29/5D587F73" Ref="U101"  Part="5" 
-F 0 "U101" H 5392 1687 60  0000 C CNN
-F 1 "xc7a100t-csg324" H 5392 1581 60  0000 C CNN
-F 2 "bga:CSG324_Artix7_100T" H 5100 1750 50  0001 C CNN
-F 3 "" H 4550 900 50  0001 C CNN
-	5    4750 1500
+F 0 "U101" H 5542 3237 60  0000 C CNN
+F 1 "xc7a100t-csg324" H 5542 3131 60  0000 C CNN
+F 2 "bga:CSG324_Artix7_100T" H 5250 3300 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	5    4900 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1184,7 +1185,7 @@ L Device:R_Small R1204
 U 1 1 5D7BD62A
 P 8850 6350
 F 0 "R1204" H 8909 6396 50  0000 L CNN
-F 1 "80" H 8909 6305 50  0000 L CNN
+F 1 "100" H 8909 6305 50  0000 L CNN
 F 2 "passive:R_0402" H 8850 6350 50  0001 C CNN
 F 3 "~" H 8850 6350 50  0001 C CNN
 	1    8850 6350
