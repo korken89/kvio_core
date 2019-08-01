@@ -33,10 +33,10 @@ L Memory_Flash:W25Q32JVZP U301
 U 1 1 5D391947
 P 8550 3650
 F 0 "U301" H 8850 4100 50  0000 C CNN
-F 1 "MX25L3233F" H 8850 4000 50  0000 C CNN
+F 1 "MX25L6433F" H 8850 4000 50  0000 C CNN
 F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm" H 8550 3650 50  0001 C CNN
-F 3 "https://www.macronix.com/Lists/Datasheet/Attachments/7426/MX25L3233F,%203V,%2032Mb,%20v1.6.pdf" H 8550 3650 50  0001 C CNN
-F 4 "MX25L3233FZNI-08Q" H 8550 3650 50  0001 C CNN "MPN"
+F 3 "https://www.macronix.com/Lists/Datasheet/Attachments/7408/MX25L6433F,%203V,%2064Mb,%20v1.6.pdf" H 8550 3650 50  0001 C CNN
+F 4 "MX25L6433FZNI-08Q" H 8550 3650 50  0001 C CNN "MPN"
 	1    8550 3650
 	1    0    0    -1  
 $EndComp
@@ -886,4 +886,34 @@ Wire Notes Line
 	6600 4150 5150 4150
 Wire Notes Line
 	5150 4150 5150 3600
+Text Notes 8000 4600 0    50   ~ 0
+DESIGN NOTE:\nUG908, Appendix C lists all\nsupported SPI Flash devices.
+Wire Notes Line
+	9200 4700 7900 4700
+Wire Notes Line
+	7900 4700 7900 4300
+Wire Notes Line
+	7900 4300 9200 4300
+Wire Notes Line
+	9200 4300 9200 4700
+$Comp
+L Device:R_Small R?
+U 1 1 5D622BEE
+P 4800 5750
+AR Path="/5D7D6E29/5D622BEE" Ref="R?"  Part="1" 
+AR Path="/5D0C5174/5D622BEE" Ref="R?"  Part="1" 
+AR Path="/5D1FE04F/5D622BEE" Ref="R304"  Part="1" 
+F 0 "R304" V 4604 5750 50  0000 C CNN
+F 1 "100" V 4695 5750 50  0000 C CNN
+F 2 "passive:R_0402" H 4800 5750 50  0001 C CNN
+F 3 "~" H 4800 5750 50  0001 C CNN
+	1    4800 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 5750 5000 5750
+Text Label 5000 5750 0    50   ~ 0
+CFG_CLK
+Wire Wire Line
+	4700 5750 4300 5750
 $EndSCHEMATC
