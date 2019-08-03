@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "KVision Mini"
 Date ""
 Rev "A"
@@ -659,196 +659,6 @@ Text Label 10100 3550 2    50   ~ 0
 CAM1_CLK_P
 Wire Wire Line
 	10100 3550 10200 3550
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5D47A67F
-P 12400 8800
-AR Path="/5D0C5174/5D47A67F" Ref="FB?"  Part="1" 
-AR Path="/5D47A67F" Ref="FB101"  Part="1" 
-F 0 "FB101" V 12255 8800 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 12254 8800 50  0001 C CNN
-F 2 "passive:R_0402" V 12330 8800 50  0001 C CNN
-F 3 "~" H 12400 8800 50  0001 C CNN
-	1    12400 8800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C102
-U 1 1 5D47A686
-P 12900 8950
-AR Path="/5D47A686" Ref="C102"  Part="1" 
-AR Path="/5D1FE04F/5D47A686" Ref="C?"  Part="1" 
-AR Path="/5D0C5174/5D47A686" Ref="C?"  Part="1" 
-F 0 "C102" H 12992 8996 50  0000 L CNN
-F 1 "0.1u" H 12992 8905 50  0000 L CNN
-F 2 "passive:C_0201" H 12900 8950 50  0001 C CNN
-F 3 "~" H 12900 8950 50  0001 C CNN
-	1    12900 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0192
-U 1 1 5D47A68C
-P 12550 9100
-AR Path="/5D47A68C" Ref="#PWR0192"  Part="1" 
-AR Path="/5D0C5174/5D47A68C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0192" H 12550 8850 50  0001 C CNN
-F 1 "GND" H 12555 8927 50  0001 C CNN
-F 2 "" H 12550 9100 50  0001 C CNN
-F 3 "" H 12550 9100 50  0001 C CNN
-	1    12550 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C101
-U 1 1 5D480634
-P 12550 8950
-AR Path="/5D480634" Ref="C101"  Part="1" 
-AR Path="/5D0C5174/5D480634" Ref="C?"  Part="1" 
-F 0 "C101" H 12642 8996 50  0000 L CNN
-F 1 "4.7u" H 12642 8905 50  0000 L CNN
-F 2 "passive:C_0402" H 12550 8950 50  0001 C CNN
-F 3 "~" H 12550 8950 50  0001 C CNN
-	1    12550 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C103
-U 1 1 5D485B44
-P 13200 8950
-AR Path="/5D485B44" Ref="C103"  Part="1" 
-AR Path="/5D1FE04F/5D485B44" Ref="C?"  Part="1" 
-AR Path="/5D0C5174/5D485B44" Ref="C?"  Part="1" 
-F 0 "C103" H 13292 8996 50  0000 L CNN
-F 1 "0.1u" H 13292 8905 50  0000 L CNN
-F 2 "passive:C_0201" H 13200 8950 50  0001 C CNN
-F 3 "~" H 13200 8950 50  0001 C CNN
-	1    13200 8950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12500 8800 12550 8800
-Wire Wire Line
-	13200 8800 13200 8850
-Wire Wire Line
-	12900 8850 12900 8800
-Connection ~ 12900 8800
-Wire Wire Line
-	12900 8800 13200 8800
-Wire Wire Line
-	12550 8850 12550 8800
-Connection ~ 12550 8800
-Wire Wire Line
-	12550 8800 12900 8800
-Wire Wire Line
-	12550 9050 12550 9100
-Wire Wire Line
-	12550 9100 12900 9100
-Wire Wire Line
-	12900 9100 12900 9050
-Connection ~ 12550 9100
-Wire Wire Line
-	12900 9100 13200 9100
-Wire Wire Line
-	13200 9100 13200 9050
-Connection ~ 12900 9100
-Text Label 12550 8800 0    50   ~ 0
-IMU_PWR
-$Comp
-L imu:ASM330LHH U102
-U 1 1 5D4A7B20
-P 13700 8700
-F 0 "U102" H 14150 8887 60  0000 C CNN
-F 1 "ASM330LHH" H 14150 8781 60  0000 C CNN
-F 2 "lga:LGA-14-2.5x3" H 14150 8850 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/asm330lhh.pdf" H 14650 8100 60  0001 C CNN
-	1    13700 8700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13200 9100 13500 9100
-Connection ~ 13200 9100
-Connection ~ 13200 8800
-Wire Wire Line
-	13200 8800 13500 8800
-Wire Wire Line
-	13550 8900 13500 8900
-Wire Wire Line
-	13500 8900 13500 8800
-Connection ~ 13500 8800
-Wire Wire Line
-	13500 8800 13550 8800
-Wire Wire Line
-	13550 9400 13500 9400
-Wire Wire Line
-	13500 9400 13500 9300
-Connection ~ 13500 9100
-Wire Wire Line
-	13500 9100 13550 9100
-Wire Wire Line
-	13550 9200 13500 9200
-Connection ~ 13500 9200
-Wire Wire Line
-	13500 9200 13500 9100
-Wire Wire Line
-	13550 9300 13500 9300
-Connection ~ 13500 9300
-Wire Wire Line
-	13500 9300 13500 9200
-Text Label 14900 8800 0    50   ~ 0
-IMU_SDI
-Text Label 14900 8900 0    50   ~ 0
-IMU_SCK
-Text Label 14900 9000 0    50   ~ 0
-IMU_CS
-Text Label 14900 9100 0    50   ~ 0
-IMU_SDO
-Text Label 15050 9300 0    50   ~ 0
-IMU_INT
-Wire Wire Line
-	14750 9300 14900 9300
-Wire Wire Line
-	14750 8800 14900 8800
-Wire Wire Line
-	14750 8900 14900 8900
-Wire Wire Line
-	14750 9000 14900 9000
-Wire Wire Line
-	14750 9100 14900 9100
-$Comp
-L Device:R_Small R?
-U 1 1 5D4E818F
-P 14900 9450
-AR Path="/5D7D6E29/5D4E818F" Ref="R?"  Part="1" 
-AR Path="/5D0C5174/5D4E818F" Ref="R?"  Part="1" 
-AR Path="/5D1FE04F/5D4E818F" Ref="R?"  Part="1" 
-AR Path="/5D4E818F" Ref="R101"  Part="1" 
-F 0 "R101" H 14959 9496 50  0000 L CNN
-F 1 "4.7k" H 14959 9405 50  0000 L CNN
-F 2 "passive:R_0402" H 14900 9450 50  0001 C CNN
-F 3 "~" H 14900 9450 50  0001 C CNN
-	1    14900 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0193
-U 1 1 5D4F3BA1
-P 14900 9550
-AR Path="/5D4F3BA1" Ref="#PWR0193"  Part="1" 
-AR Path="/5D0C5174/5D4F3BA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0193" H 14900 9300 50  0001 C CNN
-F 1 "GND" H 14905 9377 50  0001 C CNN
-F 2 "" H 14900 9550 50  0001 C CNN
-F 3 "" H 14900 9550 50  0001 C CNN
-	1    14900 9550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14900 9350 14900 9300
-Connection ~ 14900 9300
-Wire Wire Line
-	14900 9300 15050 9300
-NoConn ~ 14750 9400
 Text Label 3550 10100 0    50   ~ 0
 IMU_SDI
 Text Label 3550 10200 0    50   ~ 0
@@ -869,4 +679,45 @@ Text Label 3550 10500 0    50   ~ 0
 IMU_INT
 Wire Wire Line
 	3550 10500 3450 10500
+$Sheet
+S 11200 7550 750  900 
+U 5D4713CF
+F0 "Sensors" 50
+F1 "sensors.sch" 50
+F2 "IMU_SDI" I L 11200 7650 50 
+F3 "IMU_SDO" I L 11200 7750 50 
+F4 "IMU_SCK" I L 11200 7850 50 
+F5 "IMU_CS" I L 11200 7950 50 
+F6 "IMU_INT" I L 11200 8050 50 
+F7 "HEATER" I L 11200 8250 50 
+F8 "V_HEATER" I L 11200 8350 50 
+$EndSheet
+Text Label 11100 7650 2    50   ~ 0
+IMU_SDI
+Text Label 11100 7850 2    50   ~ 0
+IMU_SCK
+Text Label 11100 7950 2    50   ~ 0
+IMU_CS
+Text Label 11100 7750 2    50   ~ 0
+IMU_SDO
+Text Label 11100 8050 2    50   ~ 0
+IMU_INT
+Wire Wire Line
+	11100 7650 11200 7650
+Wire Wire Line
+	11100 7750 11200 7750
+Wire Wire Line
+	11100 7850 11200 7850
+Wire Wire Line
+	11100 7950 11200 7950
+Wire Wire Line
+	11100 8050 11200 8050
+Wire Wire Line
+	11200 8250 11100 8250
+Text Label 11100 8250 2    50   ~ 0
+IMU_HEATER
+Text Label 3550 10600 0    50   ~ 0
+IMU_HEATER
+Wire Wire Line
+	3550 10600 3450 10600
 $EndSCHEMATC

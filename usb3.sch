@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title ""
 Date ""
 Rev ""
@@ -560,87 +560,87 @@ Wire Wire Line
 	10400 7600 10550 7600
 Text Label 6000 5350 0    50   ~ 0
 CLK
-Text Label 6000 2950 0    50   ~ 0
-DATA_0
-Text Label 6000 3150 0    50   ~ 0
-DATA_1
-Text Label 6000 3250 0    50   ~ 0
-DATA_2
-Text Label 6000 3350 0    50   ~ 0
-DATA_3
-Text Label 6000 3450 0    50   ~ 0
-DATA_4
-Text Label 6000 3550 0    50   ~ 0
-DATA_5
-Text Label 6000 3650 0    50   ~ 0
-DATA_6
-Text Label 6000 3750 0    50   ~ 0
-DATA_7
-Text Label 6000 3850 0    50   ~ 0
-DATA_8
-Text Label 6000 3950 0    50   ~ 0
-DATA_9
-Text Label 6000 4050 0    50   ~ 0
-DATA_10
-Text Label 6000 4150 0    50   ~ 0
-DATA_11
-Text Label 6000 4250 0    50   ~ 0
-DATA_12
-Text Label 6000 4350 0    50   ~ 0
-DATA_13
-Text Label 6000 4450 0    50   ~ 0
-DATA_14
-Text Label 6000 4550 0    50   ~ 0
-DATA_15
-Text Label 6000 4650 0    50   ~ 0
-DATA_16
-Text Label 6000 4750 0    50   ~ 0
-DATA_17
-Text Label 6000 4850 0    50   ~ 0
-DATA_18
-Text Label 6000 4950 0    50   ~ 0
-DATA_19
-Text Label 6000 5050 0    50   ~ 0
-DATA_20
-Text Label 6000 5150 0    50   ~ 0
-DATA_21
-Text Label 6000 5250 0    50   ~ 0
-DATA_22
-Text Label 6000 5450 0    50   ~ 0
-DATA_23
-Text Label 6000 5550 0    50   ~ 0
-DATA_24
-Text Label 6000 5650 0    50   ~ 0
-DATA_25
-Text Label 6000 5750 0    50   ~ 0
-DATA_26
-Text Label 6000 5850 0    50   ~ 0
-DATA_27
-Text Label 6000 5950 0    50   ~ 0
-DATA_28
-Text Label 6000 6050 0    50   ~ 0
-DATA_29
-Text Label 6000 6150 0    50   ~ 0
-DATA_30
-Text Label 6000 6250 0    50   ~ 0
-DATA_31
-Text Label 6000 6350 0    50   ~ 0
-BE_0
-Text Label 6000 6450 0    50   ~ 0
-BE_1
-Text Label 6000 6550 0    50   ~ 0
-BE_2
-Text Label 6000 6650 0    50   ~ 0
-BE_3
-Text Label 6000 6750 0    50   ~ 0
-TXE_N
-Text Label 6000 6850 0    50   ~ 0
-RXF_N
-Text Label 6000 6950 0    50   ~ 0
-SIWU_N
-Text Label 6000 7050 0    50   ~ 0
-WR_N
 Text Label 6000 7150 0    50   ~ 0
+DATA_0
+Text Label 6000 7050 0    50   ~ 0
+DATA_1
+Text Label 6000 6350 0    50   ~ 0
+DATA_2
+Text Label 6000 5950 0    50   ~ 0
+DATA_3
+Text Label 6000 6450 0    50   ~ 0
+DATA_4
+Text Label 6000 6050 0    50   ~ 0
+DATA_5
+Text Label 6000 6550 0    50   ~ 0
+DATA_6
+Text Label 6000 6650 0    50   ~ 0
+DATA_7
+Text Label 6000 5750 0    50   ~ 0
+DATA_8
+Text Label 6000 5850 0    50   ~ 0
+DATA_9
+Text Label 6000 6250 0    50   ~ 0
+DATA_10
+Text Label 6000 6150 0    50   ~ 0
+DATA_11
+Text Label 6000 4750 0    50   ~ 0
+DATA_12
+Text Label 6000 5050 0    50   ~ 0
+DATA_13
+Text Label 6000 4850 0    50   ~ 0
+DATA_14
+Text Label 6000 5450 0    50   ~ 0
+DATA_15
+Text Label 6000 4950 0    50   ~ 0
+DATA_16
+Text Label 6000 4650 0    50   ~ 0
+DATA_17
+Text Label 6000 4450 0    50   ~ 0
+DATA_18
+Text Label 6000 4550 0    50   ~ 0
+DATA_19
+Text Label 6000 3650 0    50   ~ 0
+DATA_20
+Text Label 6000 3450 0    50   ~ 0
+DATA_21
+Text Label 6000 3550 0    50   ~ 0
+DATA_22
+Text Label 6000 3350 0    50   ~ 0
+DATA_23
+Text Label 6000 3750 0    50   ~ 0
+DATA_24
+Text Label 6000 4250 0    50   ~ 0
+DATA_25
+Text Label 6000 5150 0    50   ~ 0
+DATA_26
+Text Label 6000 4150 0    50   ~ 0
+DATA_27
+Text Label 6000 4350 0    50   ~ 0
+DATA_28
+Text Label 6000 3150 0    50   ~ 0
+DATA_29
+Text Label 6000 6850 0    50   ~ 0
+DATA_30
+Text Label 6000 3850 0    50   ~ 0
+DATA_31
+Text Label 6000 3250 0    50   ~ 0
+BE_0
+Text Label 6000 3950 0    50   ~ 0
+BE_1
+Text Label 6000 4050 0    50   ~ 0
+BE_2
+Text Label 6000 5250 0    50   ~ 0
+BE_3
+Text Label 6000 2950 0    50   ~ 0
+TXE_N
+Text Label 6000 6950 0    50   ~ 0
+RXF_N
+Text Label 6000 5650 0    50   ~ 0
+SIWU_N
+Text Label 6000 5550 0    50   ~ 0
+WR_N
+Text Label 6000 6750 0    50   ~ 0
 RD_N
 Text Label 6000 7250 0    50   ~ 0
 OE_N
