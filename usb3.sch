@@ -1437,4 +1437,8 @@ F 3 "~" H 13650 5100 50  0001 C CNN
 	1    13650 5100
 	0    1    1    0   
 $EndComp
+Text Label 6000 3050 0    50   ~ 0
+RESET
+Wire Wire Line
+	6000 3050 5900 3050
 $EndSCHEMATC

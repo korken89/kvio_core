@@ -475,10 +475,10 @@ Text Label 10700 3450 0    50   ~ 0
 CAM0_CLK
 Wire Wire Line
 	10700 3450 10600 3450
-Text Label 10700 3550 0    50   ~ 0
+Text Label 10700 3650 0    50   ~ 0
 CAM1_CLK
 Wire Wire Line
-	10700 3550 10600 3550
+	10700 3650 10600 3650
 Text Label 10100 3450 2    50   ~ 0
 CAM0_CLK_P
 Text Label 3550 5600 0    50   ~ 0
@@ -538,7 +538,7 @@ CAM0_FV
 Text Label 3550 6900 0    50   ~ 0
 CAM0_LV
 Text Label 3550 7000 0    50   ~ 0
-CAM0_TRIGGER
+CAM0_TRIGGER_P
 Text Label 3550 7100 0    50   ~ 0
 CAM0_FLASH
 Text Label 3550 7200 0    50   ~ 0
@@ -552,7 +552,7 @@ CAM1_FV
 Text Label 3550 8900 0    50   ~ 0
 CAM1_LV
 Text Label 3550 9000 0    50   ~ 0
-CAM1_TRIGGER
+CAM1_TRIGGER_P
 Text Label 3550 9100 0    50   ~ 0
 CAM1_FLASH
 Text Label 3550 9200 0    50   ~ 0
@@ -641,10 +641,6 @@ Wire Wire Line
 	3450 9300 3550 9300
 Wire Wire Line
 	3450 9400 3550 9400
-NoConn ~ 10200 3650
-NoConn ~ 10200 3750
-NoConn ~ 10600 3650
-NoConn ~ 10600 3750
 Text Label 3550 5400 0    50   ~ 0
 CAM1_RESET
 Wire Wire Line
@@ -655,10 +651,10 @@ Wire Wire Line
 	3450 9500 3550 9500
 Wire Wire Line
 	10100 3450 10200 3450
-Text Label 10100 3550 2    50   ~ 0
+Text Label 10100 3650 2    50   ~ 0
 CAM1_CLK_P
 Wire Wire Line
-	10100 3550 10200 3550
+	10100 3650 10200 3650
 Text Label 3550 10100 0    50   ~ 0
 IMU_SDI
 Text Label 3550 10200 0    50   ~ 0
@@ -720,4 +716,20 @@ Text Label 3550 10600 0    50   ~ 0
 IMU_HEATER
 Wire Wire Line
 	3550 10600 3450 10600
+Wire Wire Line
+	10600 3550 10700 3550
+Wire Wire Line
+	10600 3750 10700 3750
+Wire Wire Line
+	10200 3550 10100 3550
+Wire Wire Line
+	10200 3750 10100 3750
+Text Label 10700 3550 0    50   ~ 0
+CAM0_TRIGGER
+Text Label 10700 3750 0    50   ~ 0
+CAM1_TRIGGER
+Text Label 10100 3550 2    50   ~ 0
+CAM0_TRIGGER_P
+Text Label 10100 3750 2    50   ~ 0
+CAM1_TRIGGER_P
 $EndSCHEMATC

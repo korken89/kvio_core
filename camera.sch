@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -502,4 +502,22 @@ Wire Wire Line
 Connection ~ 2100 2750
 Wire Wire Line
 	2100 2750 2050 2750
+Text Label 3550 3350 0    50   ~ 0
+5V_CAM
+Text Label 3350 2950 0    50   ~ 0
+IO1_P
+Text Label 3350 3050 0    50   ~ 0
+IO2_P
+Text Label 3350 3150 0    50   ~ 0
+SDA_P
+Text Label 3350 3250 0    50   ~ 0
+SCL_P
+Text Label 3250 2250 0    50   ~ 0
+D1_P_N
+Text Label 3250 2350 0    50   ~ 0
+D1_P_P
+Text Label 3250 2450 0    50   ~ 0
+CLK_P_N
+Text Label 3250 2550 0    50   ~ 0
+CLK_P_P
 $EndSCHEMATC
