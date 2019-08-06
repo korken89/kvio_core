@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:kvio_core-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1183,39 +1183,6 @@ Text Label 12350 4550 0    50   ~ 0
 XI
 Text Label 12350 4850 0    50   ~ 0
 XO
-$Comp
-L Device:C_Small C?
-U 1 1 5DD76A6E
-P 12350 3950
-AR Path="/5DD76A6E" Ref="C?"  Part="0" 
-AR Path="/5D0C5174/5DD76A6E" Ref="C?"  Part="1" 
-AR Path="/5D80E8D8/5DD76A6E" Ref="C1304"  Part="1" 
-F 0 "C1304" H 12442 3996 50  0000 L CNN
-F 1 "0.1u" H 12442 3905 50  0000 L CNN
-F 2 "passive:C_0201" H 12350 3950 50  0001 C CNN
-F 3 "~" H 12350 3950 50  0001 C CNN
-	1    12350 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DD97DDA
-P 12350 3850
-AR Path="/5DD97DDA" Ref="#PWR?"  Part="1" 
-AR Path="/5D0C5174/5DD97DDA" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E8D8/5DD97DDA" Ref="#PWR01305"  Part="1" 
-F 0 "#PWR01305" H 12350 3600 50  0001 C CNN
-F 1 "GND" H 12355 3677 50  0001 C CNN
-F 2 "" H 12350 3850 50  0001 C CNN
-F 3 "" H 12350 3850 50  0001 C CNN
-	1    12350 3850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	12200 4050 12350 4050
-Connection ~ 12350 4050
-Wire Wire Line
-	12350 4050 13100 4050
 Wire Wire Line
 	13450 4050 13300 4050
 $Comp
@@ -1376,19 +1343,6 @@ F 3 "" H 5500 2250 50  0001 C CNN
 $EndComp
 $Comp
 L power:+3V3 #PWR?
-U 1 1 5D550CDA
-P 13450 4050
-AR Path="/5D0C5174/5D550CDA" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E8D8/5D550CDA" Ref="#PWR01318"  Part="1" 
-F 0 "#PWR01318" H 13450 3900 50  0001 C CNN
-F 1 "+3V3" V 13347 4087 50  0000 C CNN
-F 2 "" H 13450 4050 50  0001 C CNN
-F 3 "" H 13450 4050 50  0001 C CNN
-	1    13450 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
 U 1 1 5D55F9B0
 P 13150 4250
 AR Path="/5D0C5174/5D55F9B0" Ref="#PWR?"  Part="1" 
@@ -1441,4 +1395,20 @@ Text Label 6000 3050 0    50   ~ 0
 RESET
 Wire Wire Line
 	6000 3050 5900 3050
+Wire Wire Line
+	12200 4050 13100 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5D557A04
+P 13450 4050
+AR Path="/5D557A04" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C5174/5D557A04" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E8D8/5D557A04" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13450 3800 50  0001 C CNN
+F 1 "GND" H 13455 3877 50  0001 C CNN
+F 2 "" H 13450 4050 50  0001 C CNN
+F 3 "" H 13450 4050 50  0001 C CNN
+	1    13450 4050
+	0    -1   1    0   
+$EndComp
 $EndSCHEMATC
