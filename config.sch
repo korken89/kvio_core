@@ -715,13 +715,9 @@ F 3 "~" H 5200 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5300 1700 5450 1700
-Wire Wire Line
 	5300 1500 5400 1500
 Wire Wire Line
 	5400 1500 5400 1600
-Wire Wire Line
-	5400 1600 5650 1600
 Wire Wire Line
 	5300 1300 5500 1300
 Wire Wire Line
@@ -730,8 +726,6 @@ Wire Wire Line
 	5500 1500 5700 1500
 Wire Wire Line
 	5300 1100 5600 1100
-Wire Wire Line
-	5600 1100 5600 1150
 Wire Wire Line
 	5600 1400 5700 1400
 $Comp
@@ -916,56 +910,10 @@ Text Label 5000 5750 0    50   ~ 0
 CFG_CLK
 Wire Wire Line
 	4700 5750 4300 5750
-Text Label 6000 650  2    50   ~ 0
-5V_JTAG
 Wire Wire Line
-	6000 650  6100 650 
-$Comp
-L power:GND #PWR?
-U 1 1 5D4AB564
-P 6100 750
-AR Path="/5D4AB564" Ref="#PWR?"  Part="1" 
-AR Path="/5D1FE04F/5D4AB564" Ref="#PWR0198"  Part="1" 
-F 0 "#PWR0198" H 6100 500 50  0001 C CNN
-F 1 "GND" H 6105 577 50  0001 C CNN
-F 2 "" H 6100 750 50  0001 C CNN
-F 3 "" H 6100 750 50  0001 C CNN
-	1    6100 750 
-	0    1    1    0   
-$EndComp
-$Comp
-L connectors:SOICbite_JTAG U303
-U 1 1 5D4A475E
-P 6250 550
-F 0 "U303" H 6578 246 50  0000 L CNN
-F 1 "SOICbite_JTAG" H 6578 155 50  0000 L CNN
-F 2 "connectors:SOICbiteSmall" H 6250 550 50  0001 C CNN
-F 3 "https://github.com/SimonMerrett/SOICbite" H 6250 550 50  0001 C CNN
-	1    6250 550 
-	1    0    0    -1  
-$EndComp
+	5600 1100 5600 1400
 Wire Wire Line
-	6100 1150 5600 1150
-Connection ~ 5600 1150
+	5400 1600 5700 1600
 Wire Wire Line
-	5600 1150 5600 1400
-Wire Wire Line
-	6100 1050 5650 1050
-Wire Wire Line
-	5650 1050 5650 1600
-Connection ~ 5650 1600
-Wire Wire Line
-	5650 1600 5700 1600
-Wire Wire Line
-	6100 850  5500 850 
-Wire Wire Line
-	5500 850  5500 1300
-Connection ~ 5500 1300
-Wire Wire Line
-	6100 950  5450 950 
-Wire Wire Line
-	5450 950  5450 1700
-Connection ~ 5450 1700
-Wire Wire Line
-	5450 1700 5700 1700
+	5300 1700 5700 1700
 $EndSCHEMATC
