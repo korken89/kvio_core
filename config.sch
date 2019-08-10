@@ -593,13 +593,13 @@ Text Label 4400 2750 0    50   ~ 0
 TDO
 Text Label 4400 2850 0    50   ~ 0
 TMS
-Text Label 5000 1500 2    50   ~ 0
+Text Label 4500 1500 2    50   ~ 0
 TCK
-Text Label 5000 1100 2    50   ~ 0
+Text Label 4500 1400 2    50   ~ 0
 TDI
-Text Label 5000 1700 2    50   ~ 0
+Text Label 4500 1600 2    50   ~ 0
 TDO
-Text Label 5000 1300 2    50   ~ 0
+Text Label 4500 1700 2    50   ~ 0
 TMS
 Text Label 5600 1800 2    50   ~ 0
 5V_JTAG
@@ -617,13 +617,13 @@ F 3 "" H 5600 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5000 1100 5100 1100
+	4500 1400 4600 1400
 Wire Wire Line
-	5000 1300 5100 1300
+	4500 1700 4600 1700
 Wire Wire Line
-	5000 1500 5100 1500
+	4500 1500 4600 1500
 Wire Wire Line
-	5000 1700 5100 1700
+	4500 1600 4600 1600
 Wire Wire Line
 	5600 1800 5700 1800
 Wire Wire Line
@@ -658,87 +658,6 @@ Text Label 2850 1400 0    50   ~ 0
 5V_JTAG
 Text Label 2850 1500 0    50   ~ 0
 SYSTEM_RESET
-$Comp
-L Device:R_Small R?
-U 1 1 5D40FCEF
-P 5200 1100
-AR Path="/5D7D6E29/5D40FCEF" Ref="R?"  Part="1" 
-AR Path="/5D0C5174/5D40FCEF" Ref="R?"  Part="1" 
-AR Path="/5D1FE04F/5D40FCEF" Ref="R317"  Part="1" 
-F 0 "R317" V 5100 1100 50  0000 C CNN
-F 1 "100" V 5200 1100 50  0000 C CNN
-F 2 "passive:R_0402" H 5200 1100 50  0001 C CNN
-F 3 "~" H 5200 1100 50  0001 C CNN
-	1    5200 1100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D41A2E2
-P 5200 1300
-AR Path="/5D7D6E29/5D41A2E2" Ref="R?"  Part="1" 
-AR Path="/5D0C5174/5D41A2E2" Ref="R?"  Part="1" 
-AR Path="/5D1FE04F/5D41A2E2" Ref="R318"  Part="1" 
-F 0 "R318" V 5100 1300 50  0000 C CNN
-F 1 "100" V 5200 1300 50  0000 C CNN
-F 2 "passive:R_0402" H 5200 1300 50  0001 C CNN
-F 3 "~" H 5200 1300 50  0001 C CNN
-	1    5200 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D41A651
-P 5200 1500
-AR Path="/5D7D6E29/5D41A651" Ref="R?"  Part="1" 
-AR Path="/5D0C5174/5D41A651" Ref="R?"  Part="1" 
-AR Path="/5D1FE04F/5D41A651" Ref="R319"  Part="1" 
-F 0 "R319" V 5100 1500 50  0000 C CNN
-F 1 "100" V 5200 1500 50  0000 C CNN
-F 2 "passive:R_0402" H 5200 1500 50  0001 C CNN
-F 3 "~" H 5200 1500 50  0001 C CNN
-	1    5200 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D41AA6D
-P 5200 1700
-AR Path="/5D7D6E29/5D41AA6D" Ref="R?"  Part="1" 
-AR Path="/5D0C5174/5D41AA6D" Ref="R?"  Part="1" 
-AR Path="/5D1FE04F/5D41AA6D" Ref="R320"  Part="1" 
-F 0 "R320" V 5100 1700 50  0000 C CNN
-F 1 "100" V 5200 1700 50  0000 C CNN
-F 2 "passive:R_0402" H 5200 1700 50  0001 C CNN
-F 3 "~" H 5200 1700 50  0001 C CNN
-	1    5200 1700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5300 1500 5400 1500
-Wire Wire Line
-	5400 1500 5400 1600
-Wire Wire Line
-	5300 1300 5500 1300
-Wire Wire Line
-	5500 1300 5500 1500
-Wire Wire Line
-	5500 1500 5700 1500
-Wire Wire Line
-	5300 1100 5600 1100
-Wire Wire Line
-	5600 1400 5700 1400
-$Comp
-L Connector:Conn_01x06_Male J301
-U 1 1 5D41EF24
-P 5900 1600
-F 0 "J301" H 5872 1528 50  0000 R CNN
-F 1 "Conn_01x06_Male" H 5872 1483 50  0001 R CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical" H 5900 1600 50  0001 C CNN
-F 3 "~" H 5900 1600 50  0001 C CNN
-	1    5900 1600
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5D40D029
@@ -910,10 +829,67 @@ Text Label 5000 5750 0    50   ~ 0
 CFG_CLK
 Wire Wire Line
 	4700 5750 4300 5750
+$Comp
+L interface_esd:IP4254CZ8-4-TTL U?
+U 1 1 5D568373
+P 4700 1750
+AR Path="/5CBF1C17/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D629079/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D650A72/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D650A80/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D67146E/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D67147C/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D67148A/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D671498/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D5589C0/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D558E16/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D559506/5D568373" Ref="U?"  Part="1" 
+AR Path="/5D1FE04F/5D568373" Ref="U303"  Part="1" 
+F 0 "U303" H 4875 1200 50  0000 C CNN
+F 1 "IP4254CZ8-4-TTL" H 4875 1100 50  0000 C CNN
+F 2 "dfn:UDFN-8-1EP_1.7x1.35mm_P0.4mm_EP0.4x1.2mm" H 4700 1600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/IP4251_52_53_54-TTL.pdf" H 4900 1100 50  0001 C CNN
+	1    4700 1750
+	1    0    0    1   
+$EndComp
+$Comp
+L connectors:SOICbite_JTAG U304
+U 1 1 5D56F54D
+P 5850 2000
+F 0 "U304" H 5917 1135 50  0000 C CNN
+F 1 "SOICbite_JTAG" H 5917 1226 50  0000 C CNN
+F 2 "connectors:SOICbiteSmall" H 5850 2000 50  0001 C CNN
+F 3 "https://github.com/SimonMerrett/SOICbite" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	1    0    0    1   
+$EndComp
 Wire Wire Line
-	5600 1100 5600 1400
+	5150 1400 5700 1400
 Wire Wire Line
-	5400 1600 5700 1600
+	5150 1500 5700 1500
 Wire Wire Line
-	5300 1700 5700 1700
+	5150 1600 5700 1600
+Wire Wire Line
+	5150 1700 5700 1700
+$Comp
+L power:GND #PWR?
+U 1 1 5D599C80
+P 5150 1300
+AR Path="/5D599C80" Ref="#PWR?"  Part="1" 
+AR Path="/5D1FE04F/5D599C80" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 5150 1050 50  0001 C CNN
+F 1 "GND" H 5155 1127 50  0001 C CNN
+F 2 "" H 5150 1300 50  0001 C CNN
+F 3 "" H 5150 1300 50  0001 C CNN
+	1    5150 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 5300 1500 0    50   ~ 0
+TCK_P
+Text Label 5300 1400 0    50   ~ 0
+TDI_P
+Text Label 5300 1600 0    50   ~ 0
+TDO_P
+Text Label 5300 1700 0    50   ~ 0
+TMS_P
 $EndSCHEMATC

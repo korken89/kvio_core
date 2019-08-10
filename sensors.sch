@@ -156,8 +156,6 @@ Connection ~ 5350 1850
 Wire Wire Line
 	5350 1850 5350 1750
 Wire Wire Line
-	6600 1850 6750 1850
-Wire Wire Line
 	6600 1350 7350 1350
 Wire Wire Line
 	6600 1450 7350 1450
@@ -168,36 +166,35 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5D47D386
-P 6750 2000
+P 7700 2000
 AR Path="/5D7D6E29/5D47D386" Ref="R?"  Part="1" 
 AR Path="/5D0C5174/5D47D386" Ref="R?"  Part="1" 
 AR Path="/5D1FE04F/5D47D386" Ref="R?"  Part="1" 
 AR Path="/5D47D386" Ref="R?"  Part="1" 
 AR Path="/5D4713CF/5D47D386" Ref="R1210"  Part="1" 
-F 0 "R1210" H 6809 2046 50  0000 L CNN
-F 1 "4.7k" H 6809 1955 50  0000 L CNN
-F 2 "passive:R_0402" H 6750 2000 50  0001 C CNN
-F 3 "~" H 6750 2000 50  0001 C CNN
-	1    6750 2000
+F 0 "R1210" H 7759 2046 50  0000 L CNN
+F 1 "4.7k" H 7759 1955 50  0000 L CNN
+F 2 "passive:R_0402" H 7700 2000 50  0001 C CNN
+F 3 "~" H 7700 2000 50  0001 C CNN
+	1    7700 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D47D38C
-P 6750 2100
+P 7700 2100
 AR Path="/5D47D38C" Ref="#PWR?"  Part="1" 
 AR Path="/5D0C5174/5D47D38C" Ref="#PWR?"  Part="1" 
 AR Path="/5D4713CF/5D47D38C" Ref="#PWR0193"  Part="1" 
-F 0 "#PWR0193" H 6750 1850 50  0001 C CNN
-F 1 "GND" H 6755 1927 50  0001 C CNN
-F 2 "" H 6750 2100 50  0001 C CNN
-F 3 "" H 6750 2100 50  0001 C CNN
-	1    6750 2100
+F 0 "#PWR0193" H 7700 1850 50  0001 C CNN
+F 1 "GND" H 7705 1927 50  0001 C CNN
+F 2 "" H 7700 2100 50  0001 C CNN
+F 3 "" H 7700 2100 50  0001 C CNN
+	1    7700 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 1900 6750 1850
-Connection ~ 6750 1850
+	7700 1900 7700 1850
 NoConn ~ 6600 1950
 $Comp
 L power:+3V3 #PWR?
@@ -224,8 +221,6 @@ Text HLabel 7800 1550 2    50   Input ~ 0
 IMU_CS
 Text HLabel 7800 1850 2    50   Input ~ 0
 IMU_INT
-Wire Wire Line
-	6750 1850 7350 1850
 Text Notes 6700 2650 0    50   ~ 0
 DESIGN NOTE:\nIMU needs a pulldown on INT1\nduring startup, see datasheet\nfor details.
 Wire Notes Line
@@ -253,7 +248,7 @@ F 3 "~" H 7450 1850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7550 1850 7800 1850
+	7550 1850 7700 1850
 $Comp
 L Device:R_Small R?
 U 1 1 5D4AA459
@@ -687,4 +682,9 @@ Wire Wire Line
 	4950 3600 5500 3600
 Text Label 5250 4100 0    50   ~ 0
 HEATER_SIG
+Connection ~ 7700 1850
+Wire Wire Line
+	7700 1850 7800 1850
+Wire Wire Line
+	6600 1850 7350 1850
 $EndSCHEMATC
